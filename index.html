@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>高齢者介護Map by OpenData 浜名湖</title>
+    <link rel="stylesheet" href="css/ol.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css.map" type="text/css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.4.css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/icon-pack-custom.css">
+</head>
+
+<body>
+    <div data-role="page" id="mainPage">
+        <div role="main" class="ui-content">
+            <div id="nav">
+                <fieldset id="nav1" data-role="controlgroup" data-type="horizontal" data-mini="true">
+                    <label for="cbWelfare" id="lblWelfare">介護施設</label>
+                    <input type="checkbox" name="cbWelfare" id="cbWelfare" checked="checked">
+                    <label for="cbHospital" id="lblHospital">病院</label>
+                    <input type="checkbox" name="cbHospital" id="cbHospital" checked="checked">
+                    <label for="cbDental" id="lblDental">歯科医院</label>
+                    <input type="checkbox" name="cbDental" id="cbDental" checked="checked">
+                    <label for="cbDrugStore" id="lblDrugStore">薬局</label>
+                    <input type="checkbox" name="cbDrugStore" id="cbDrugStore" checked="checked">
+                    <label for="cbIbasho" id="lblIbasho">地域の居場所</label>
+                    <input type="checkbox" name="cbIbasho" id="cbIbasho" checked="checked">
+                    <label for="cbMiddleSchool" id="lblMiddleSchool">中学校区</label>
+                    <input type="checkbox" name="cbMiddleSchool" id="cbMiddleSchool">
+                    <a id="btnFilter" href="#filterdialog" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-icon-filter ui-btn-icon-right ui-icon-check">検索</a>
+                    <label for="changeBaseMap">背景</label>
+                    <select id="changeBaseMap" data-mini="true">
+                        <option>背景</option>
+                    </select>
+                    <label id="lblDisplayCircle" for="cbDisplayCircle" class="ui-btn-icon-notext">距離円<span class="ui-icon-bullseye ui-btn-icon-notext"></span></label>
+                    <input type="checkbox" id="cbDisplayCircle" name="cbDisplayCircle" data-mini="true" />
+                    <label for="changeCircleRadius" class="ui-hidden-accessible">円表示</label>
+                    <select id="changeCircleRadius" data-mini="true">
+                        <optgroup label="円表示">
+                            <option value="" selected="selected">円消去</option>
+                            <option value="500">半径 500m</option>
+                            <option value="1000">半径 1km</option>
+                            <option value="3000">半径 3km</option>
+                            <option value="5000">半径 5km</option>
+                        </optgroup>
+                    </select>
+                    <a id="btnHelp" href="http://www.kosai.org/odh/" target="_blank" class="ui-btn ui-icon-question ui-btn-icon-notext">help</a>
+                    <!--
+                    <a id="btnHelp" href="#helpDialog" data-rel="popup" data-position-to="window" class="ui-btn ui-icon-question ui-btn-icon-notext">help</a>
+                    -->
+                </fieldset>
+            </div>
+            <div id="map" class="map">
+            </div>
+            <div id="popup" data-role="popup" data-theme="a" class="ui-content ol-popup" style="max-height: 200px;">
+                <a href="#" id="popup-closer" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <div id="popup-title" data-role="header" data-theme="a"></div>
+                <div id="popup-content" role="main"></div>
+            </div>
+        </div>
+        <div data-role="popup" data-history="false" id="filterdialog" data-theme="a" class="ui-corner-all ui-icon-delete ui-btn-left">
+            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+            <form>
+                <div style="padding:10px 20px;">
+                    <h3>介護施設 絞り込み</h3>
+                    <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        <label for="subtype" class="select">種別</label>
+                        <select id="subtype" class="filtersb">
+                            <option value="">種別</option>
+                            <option value="グループホーム">グループホーム</option>
+                            <option value="ショートステイ">ショートステイ</option>
+                            <option value="小規模多機能">小規模多機能</option>
+                            <option value="通所リハビリ">通所リハビリ</option>
+                            <option value="通所介護">通所介護</option>
+                            <option value="特別養護老人ホーム">特別養護老人ホーム</option>
+                            <option value="認知症対応型">認知症対応型</option>
+                            <option value="訪問介護">訪問介護</option>
+                            <option value="訪問看護">訪問看護</option>
+                            <option value="訪問入浴">訪問入浴</option>
+                            <option value="福祉用具（貸与・販売）">福祉用具（貸与・販売）</option>
+                        </select>
+                    </fieldset>
+                    <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        <a href="#" data-rel="back" id="filterApply" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">条件適用</a>
+                        <a href="#" id="filterReset" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-delete">リセット</a>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+        <div data-role="popup" data-history="false" id="helpDialog" data-theme="a" class="ui-corner-all ui-icon-delete ui-btn-left">
+            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+            <div style="padding:10px 20px;">
+                <h3>高齢者介護マップ</h3>
+                <fieldset>
+                    <p>
+                        v1.0
+                    </p>
+                </fieldset>
+                <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                    <p>
+                        (C) <a href="http://www.kosai.org/odh/" target="_blank">オープンデータ浜名湖</a>
+                    </p>
+                    <a href="#" data-rel="back" id="helpClose" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">閉じる</a>
+                </fieldset>
+            </div>
+        </div>
+        <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.4.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/v3.0.0/build/ol.js" type="text/javascript"></script>
+        <script src="js/ol_style.js" type="text/javascript"></script>
+        <script src="js/movecurrentlocationcontrol.js" type="text/javascript"></script>
+        <script src="js/movetolist.js" type="text/javascript"></script>
+        <script src="js/facilityfilter.js" type="text/javascript"></script>
+        <script src="js/papamamap.js" type="text/javascript"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+        <div id="marker"></div>
+        <div id="markerTitle"></div>
+        <div id="center_marker"></div>
+        <div id="center_markerTitle"></div>
+        <script>
+        // (function(i, s, o, g, r, a, m) {
+        //     i['GoogleAnalyticsObject'] = r;
+        //     i[r] = i[r] || function() {
+        //         (i[r].q = i[r].q || []).push(arguments)
+        //     }, i[r].l = 1 * new Date();
+        //     a = s.createElement(o),
+        //         m = s.getElementsByTagName(o)[0];
+        //     a.async = 1;
+        //     a.src = g;
+        //     m.parentNode.insertBefore(a, m)
+        // })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        // ga('create', 'UA-84793990-1', 'auto');
+        // ga('send', 'pageview');
+        </script>
+</body>
+
+</html>
