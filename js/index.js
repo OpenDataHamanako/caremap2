@@ -314,13 +314,11 @@ $('#mainPage').on('pageshow', function() {
         papamamap.switchLayer($('#cbIbasho').prop('id'), checkObj.ibasho);
         papamamap.switchLayer($('#cbDental').prop('id'), checkObj.dental);
         papamamap.switchLayer($('#cbHospital').prop('id'), checkObj.hospital);
-        papamamap.switchLayer($('#cbSalon').prop('id'), checkObj.salon);
         papamamap.switchLayer($('#cbDrugStore').prop('id'), checkObj.salon);
         $('#cbWelfare').prop('checked', checkObj.welfare).checkboxradio('refresh');
         $('#cbIbasho').prop('checked', checkObj.ibasho).checkboxradio('refresh');
         $('#cbDental').prop('checked', checkObj.dental).checkboxradio('refresh');
         $('#cbHospital').prop('checked', checkObj.hospital).checkboxradio('refresh');
-        $('#cbSalon').prop('checked', checkObj.salon).checkboxradio('refresh');
         $('#cbDrugStore').prop('checked', checkObj.DrugStore).checkboxradio('refresh');
 
     }
