@@ -1185,7 +1185,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.564096,34.688879 ]
+       "coordinates":  [ 137.5671268,34.68558493 ]
     },
     "properties": {
     "HID":1063,
@@ -1196,7 +1196,7 @@
     "TEL":"053-594-7104",
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名２０５-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14436&kinouid=fk9102",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12864&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1205,38 +1205,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.541611,34.715816 ]
+       "coordinates":  [ 137.5446168,34.71249073 ]
     },
     "properties": {
     "HID":1064,
     "Type":"医院",
-    "SubType":"内科、小児科",
+    "SubType":"眼科",
     "Name":"ありき眼科",
     "Organization":"",
     "TEL":"053-576-0053",
     "Add1":"静岡県湖西市",
     "Add2":"鷲津５７２-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14676&kinouid=fk9102",
-    "business_hours":"",
-    "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.501086,34.723369 ]
-    },
-    "properties": {
-    "HID":1065,
-    "Type":"医院",
-    "SubType":"眼科",
-    "Name":"いしはま医院",
-    "Organization":"",
-    "TEL":"053-573-0101",
-    "Add1":"静岡県湖西市",
-    "Add2":"岡崎８８２-４９",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14412&kinouid=fk9102",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12900&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1245,18 +1225,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.548297,34.711126 ]
+       "coordinates":  [ 137.5041015,34.72009418 ]
     },
     "properties": {
-    "HID":1066,
+    "HID":1065,
     "Type":"医院",
     "SubType":"内科、消化器科、小児科",
-    "Name":"きもと小児科",
+    "Name":"いしはま医院",
     "Organization":"",
-    "TEL":"053-576-1938",
+    "TEL":"053-573-0101",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津１１９１-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14427&kinouid=fk9102",
+    "Add2":"岡崎８８２-４９",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12885&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
     }
@@ -1265,18 +1245,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.555613,34.709571 ]
+       "coordinates":  [ 137.5512905,34.70785113 ]
     },
     "properties": {
-    "HID":1067,
+    "HID":1066,
     "Type":"医院",
     "SubType":"小児科",
-    "Name":"クリニック井田",
+    "Name":"きもと小児科",
     "Organization":"",
-    "TEL":"053-595-1188",
+    "TEL":"053-576-1938",
     "Add1":"静岡県湖西市",
-    "Add2":"新居町中之郷３６３６-２０",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14438&kinouid=fk9102",
+    "Add2":"鷲津１１９１-１",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12407&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"土曜日午後・日曜日・祝日"
     }
@@ -1285,18 +1265,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.536445,34.714069 ]
+       "coordinates":  [ 137.5586082,34.70629854 ]
     },
     "properties": {
-    "HID":1068,
+    "HID":1067,
     "Type":"医院",
-    "SubType":"内科、消化器外科、外科、乳腺外科",
-    "Name":"こいで整形外科・皮膚科",
+    "SubType":"内科、消化器外科、外科、\n乳腺外科",
+    "Name":"クリニック井田",
     "Organization":"",
-    "TEL":"053-575-1080",
+    "TEL":"053-595-1188",
     "Add1":"静岡県湖西市",
-    "Add2":"古見８６１-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14426&kinouid=fk9102",
+    "Add2":"新居町中之郷３６３６-２０",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12797&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1305,18 +1285,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.554604,34.708557 ]
+       "coordinates":  [ 137.5394791,34.71081386 ]
     },
     "properties": {
-    "HID":1069,
+    "HID":1068,
     "Type":"医院",
-    "SubType":"整形外科、リハビリテーション科、アレルギー科、皮膚科、リウマチ科",
-    "Name":"すずき整形外科",
+    "SubType":"整形外科、リハビリテーション科、アレルギー科、皮膚科、\nリウマチ科",
+    "Name":"こいで整形外科・皮膚科",
     "Organization":"",
-    "TEL":"053-594-7277",
+    "TEL":"053-575-1080",
     "Add1":"静岡県湖西市",
-    "Add2":"新居町中之郷３６３６-１１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14671&kinouid=fk9102",
+    "Add2":"古見８６１-１",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12842&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1325,18 +1305,38 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.536956,34.713505 ]
+       "coordinates":  [ 137.5576049,34.70529742 ]
+    },
+    "properties": {
+    "HID":1069,
+    "Type":"医院",
+    "SubType":"リウマチ科、リハビリテーション科、整形外科",
+    "Name":"すずき整形外科",
+    "Organization":"",
+    "TEL":"053-594-7277",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町中之郷３６３６-１１",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12413&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"木曜日・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.5399171,34.7102329 ]
     },
     "properties": {
     "HID":1070,
     "Type":"医院",
-    "SubType":"リウマチ科、リハビリテーション科、整形外科",
+    "SubType":"内科、消化器科",
     "Name":"なかしま内科",
     "Organization":"",
     "TEL":"053-574-3317",
     "Add1":"静岡県湖西市",
     "Add2":"古見８６２-５",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14435&kinouid=fk9102",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12901&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -1345,38 +1345,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.490532,34.719034 ]
+       "coordinates":  [ 137.4934574,34.71577294 ]
     },
     "properties": {
     "HID":1071,
     "Type":"医院",
-    "SubType":"内科、消化器科",
+    "SubType":"内科、外科、皮膚科、\n消化器科、こう門科、\nリハビリテーション科",
     "Name":"なかむらクリニック",
     "Organization":"",
     "TEL":"053-577-5554",
     "Add1":"静岡県湖西市",
     "Add2":"駅南１丁目５-６",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14419&kinouid=fk9102",
-    "business_hours":"",
-    "regular_holiday":"木曜日・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.539223,34.707062 ]
-    },
-    "properties": {
-    "HID":1072,
-    "Type":"医院",
-    "SubType":"内科、外科、皮膚科、消化器科、こう門科、リハビリテーション科",
-    "Name":"はやし耳鼻咽喉科医院",
-    "Organization":"",
-    "TEL":"053-574-2315",
-    "Add1":"静岡県湖西市",
-    "Add2":"古見６７１-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14429&kinouid=fk9102",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12904&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"日曜日・祝日"
     }
@@ -1385,7 +1365,27 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.572298,34.688843 ]
+       "coordinates":  [ 137.542213,34.70375857 ]
+    },
+    "properties": {
+    "HID":1072,
+    "Type":"医院",
+    "SubType":"耳鼻いんこう科",
+    "Name":"林耳鼻咽喉科医院",
+    "Organization":"",
+    "TEL":"053-574-2315",
+    "Add1":"静岡県湖西市",
+    "Add2":"古見６７１-１",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12878&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"火曜日午後・水曜日・土曜日午後・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.5753244,34.68553179 ]
     },
     "properties": {
     "HID":1073,
@@ -1396,7 +1396,7 @@
     "TEL":"053-595-0780",
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居４８６-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14428&kinouid=fk9102",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12872&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1405,7 +1405,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.569412,34.685771 ]
+       "coordinates":  [ 137.5723629,34.6824791 ]
     },
     "properties": {
     "HID":1074,
@@ -1416,7 +1416,7 @@
     "TEL":"053-594-3555",
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居２０９７-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14434&kinouid=fk9102",
+    "url":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -1425,7 +1425,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.528161,34.74927 ]
+       "coordinates":  [ 137.5311629,34.74598248 ]
     },
     "properties": {
     "HID":1075,
@@ -1436,7 +1436,7 @@
     "TEL":"053-578-0658",
     "Add1":"静岡県湖西市",
     "Add2":"入出５０５",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14424&kinouid=fk9102",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12385&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"土曜日午後・日曜日・祝日"
     }
@@ -1445,118 +1445,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.564818,34.69385 ]
+       "coordinates":  [ 137.5678137,34.69057848 ]
     },
     "properties": {
     "HID":1076,
     "Type":"医院",
-    "SubType":"内科、小児科、皮膚科消化器科、外科",
-    "Name":"医療法人社団 あらい青葉クリニック",
+    "SubType":"内科、小児科",
+    "Name":"あらい青葉クリニック",
     "Organization":"",
     "TEL":"053-594-0044",
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居３３６０-２",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14425&kinouid=fk9102",
-    "business_hours":"",
-    "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.542705,34.712475 ]
-    },
-    "properties": {
-    "HID":1077,
-    "Type":"医院",
-    "SubType":"内科、循環器科、胃腸科、小児科",
-    "Name":"牛田クリニック",
-    "Organization":"",
-    "TEL":"053-574-2252",
-    "Add1":"静岡県湖西市",
-    "Add2":"鷲津７８６-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14411&kinouid=fk9102",
-    "business_hours":"",
-    "regular_holiday":"土曜日午後・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.484752,34.719794 ]
-    },
-    "properties": {
-    "HID":1078,
-    "Type":"医院",
-    "SubType":"内科、小児科、循環器内科、腎臓内科、呼吸器外科、脳神経外科、形成外科、リハビリテーション科、眼科、皮膚科、産婦人科、神経内科、呼吸器内科、消化器内科、外科、心臓血管外科、整形外科、麻酔科、こう門外科、耳鼻いんこう科、泌尿器科、精神科",
-    "Name":"後藤内科医院",
-    "Organization":"",
-    "TEL":"053-572-3292",
-    "Add1":"静岡県湖西市",
-    "Add2":"駅南４丁目２－３３",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14420&kinouid=fk9102",
-    "business_hours":"",
-    "regular_holiday":"土曜日・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.548952,34.712503 ]
-    },
-    "properties": {
-    "HID":1079,
-    "Type":"医院",
-    "SubType":"耳鼻いんこう科、気管食道科、小児科、皮膚科、内科",
-    "Name":"市立湖西病院",
-    "Organization":"",
-    "TEL":"053-576-1231",
-    "Add1":"静岡県湖西市",
-    "Add2":"鷲津２２５９-１",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14413&kinouid=fk9102",
-    "business_hours":"",
-    "regular_holiday":"木曜日・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.486193,34.724888 ]
-    },
-    "properties": {
-    "HID":1080,
-    "Type":"医院",
-    "SubType":"内科、小児科",
-    "Name":"新所原医院",
-    "Organization":"",
-    "TEL":"053-577-0112",
-    "Add1":"静岡県湖西市",
-    "Add2":"新所原2‐5‐26",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14430&kinouid=fk9102",
-    "business_hours":"",
-    "regular_holiday":"土曜日午後・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.561693,34.693936 ]
-    },
-    "properties": {
-    "HID":1081,
-    "Type":"医院",
-    "SubType":"内科、循環器科 ",
-    "Name":"新村医院",
-    "Organization":"",
-    "TEL":"053-594-0080",
-    "Add1":"静岡県湖西市",
-    "Add2":"新居町新居３３５４-２７",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14437&kinouid=fk9102",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12414&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
     }
@@ -1565,18 +1465,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.522473,34.730475 ]
+       "coordinates":  [ 137.5457111,34.70917433 ]
     },
     "properties": {
-    "HID":1082,
+    "HID":1077,
     "Type":"医院",
-    "SubType":"アレルギー科、皮膚科、",
-    "Name":"榛名医院",
+    "SubType":"内科、小児科、皮膚科\n消化器科、外科",
+    "Name":"牛田クリニック",
     "Organization":"",
-    "TEL":"053-578-1092",
+    "TEL":"053-574-2252",
     "Add1":"静岡県湖西市",
-    "Add2":"新所４０１４",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14410&kinouid=fk9102",
+    "Add2":"鷲津７８６-１",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12784&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
@@ -1585,27 +1485,127 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.54035,34.709675 ]
+       "coordinates":  [ 137.4877492,34.71653157 ]
     },
     "properties": {
-    "HID":1083,
+    "HID":1078,
     "Type":"医院",
-    "SubType":"",
-    "Name":"西遠皮膚科ｱﾚﾙｷﾞｰクリニック",
+    "SubType":"内科、循環器科、胃腸科、\n小児科",
+    "Name":"後藤内科医院",
     "Organization":"",
-    "TEL":"053-574-3741",
+    "TEL":"053-572-3292",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津３３１８-１",
-    "url":"",
+    "Add2":"駅南４丁目２－３３",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12391&kinouid=fk9102",
     "business_hours":"",
-    "regular_holiday":""
+    "regular_holiday":"土曜日午後・日曜日・祝日"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.505691,34.723581 ]
+       "coordinates":  [ 137.5520417,34.70915653 ]
+    },
+    "properties": {
+    "HID":1079,
+    "Type":"医院",
+    "SubType":"内科、小児科、循環器内科、\n腎臓内科、呼吸器外科、\n脳神経外科、形成外科、\nリハビリテーション科、眼科、\n皮膚科、産婦人科、神経内科、呼吸器内科、消化器内科、\n外科、心臓血管外科、\n整形外科、麻酔科、\nこう門外科、耳鼻いんこう科、\n泌尿器科、精神科",
+    "Name":"市立湖西病院",
+    "Organization":"",
+    "TEL":"053-576-1231",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津２２５９-１",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10164&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"土曜日・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.4891657,34.72155851 ]
+    },
+    "properties": {
+    "HID":1080,
+    "Type":"医院",
+    "SubType":"耳鼻いんこう科、気管食道科、小児科、皮膚科、内科",
+    "Name":"新所原医院",
+    "Organization":"",
+    "TEL":"053-577-0112",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所原2‐5‐26",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12384&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"木曜日・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.5647021,34.69066678 ]
+    },
+    "properties": {
+    "HID":1081,
+    "Type":"医院",
+    "SubType":"内科、小児科",
+    "Name":"新村医院",
+    "Organization":"",
+    "TEL":"053-594-0080",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町新居３３５４-２７",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12400&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"土曜日午後・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.5254754,34.72723685 ]
+    },
+    "properties": {
+    "HID":1082,
+    "Type":"医院",
+    "SubType":"内科、循環器科",
+    "Name":"榛名医院",
+    "Organization":"",
+    "TEL":"053-578-1092",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所４０１４",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12881&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.5433719,34.70644004 ]
+    },
+    "properties": {
+    "HID":1083,
+    "Type":"医院",
+    "SubType":"アレルギー科、皮膚科、",
+    "Name":"西遠皮膚科ｱﾚﾙｷﾞｰクリニック",
+    "Organization":"",
+    "TEL":"053-574-3741",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津３３１８-１",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12899&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.5086938,34.72030572 ]
     },
     "properties": {
     "HID":1084,
@@ -1616,7 +1616,7 @@
     "TEL":"053-573-3737",
     "Add1":"静岡県湖西市",
     "Add2":"岡崎２５８６-３８",
-    "url":"",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12905&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1625,7 +1625,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.564235,34.689384 ]
+       "coordinates":  [ 137.5672342,34.686079 ]
     },
     "properties": {
     "HID":1085,
@@ -1636,7 +1636,7 @@
     "TEL":"053-594-7311",
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名１６８-７",
-    "url":"",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12416&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
@@ -1645,18 +1645,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.543905,34.714867 ]
+       "coordinates":  [ 137.5469129,34.71159103 ]
     },
     "properties": {
     "HID":1086,
     "Type":"医院",
-    "SubType":"内科、糖尿病内科、循環器内科、小児科",
+    "SubType":"内科、糖尿病内科、\n循環器内科、小児科",
     "Name":"長尾クリニック",
     "Organization":"",
     "TEL":"053-574-3222",
     "Add1":"静岡県湖西市",
     "Add2":"鷲津７４０-１",
-    "url":"",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12910&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"水曜日・日曜日・祝日"
     }
@@ -1665,7 +1665,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.559382,34.695478 ]
+       "coordinates":  [ 137.5623631,34.69184901 ]
     },
     "properties": {
     "HID":1087,
@@ -1676,7 +1676,7 @@
     "TEL":"053-594-8222",
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居１３２３－５",
-    "url":"",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12858&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1685,40 +1685,40 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.493451,34.723575 ]
+       "coordinates":  [ 137.4964619,34.72044713 ]
     },
     "properties": {
     "HID":1088,
     "Type":"医院",
-    "SubType":"",
+    "SubType":"内科、外科、整形外科、\nリハビリテーション科、\n泌尿器科、小児科、呼吸器内科、消化器内科、脳神経外科、消化器外科、眼科、\n歯科口腔外科、皮膚科、\n循環器内科",
     "Name":"浜名病院",
     "Organization":"",
     "TEL":"053-577-2333",
     "Add1":"静岡県湖西市",
     "Add2":"入会地１５-７０",
-    "url":"http://www.hamanakai.or.jp/",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10165&kinouid=fk9102",
     "business_hours":"",
-    "regular_holiday":""
+    "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.508804,34.754971 ]
+       "coordinates":  [ 137.499477,34.717109 ]
     },
     "properties": {
     "HID":1089,
     "Type":"医院",
-    "SubType":"内科、外科、整形外科、リハビリテーション科、泌尿器科、小児科、呼吸器内科、消化器内科、脳神経外科、消化器外科、眼科、歯科口腔外科、皮膚科、循環器内科",
-    "Name":"野里医院",
+    "SubType":"",
+    "Name":"西湖西整形外科",
     "Organization":"",
-    "TEL":"053-578-1107",
+    "TEL":"053-522-7001",
     "Add1":"静岡県湖西市",
-    "Add2":"大知波５４２-４",
+    "Add2":"岡崎１２８６－２",
     "url":"",
     "business_hours":"",
-    "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
+    "regular_holiday":""
     }
   },
   {
