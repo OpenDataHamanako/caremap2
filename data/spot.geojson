@@ -145,7 +145,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.576767,34.686256 ]
+       "coordinates":  [ 137.576253,34.686138 ]
     },
     "properties": {
     "HID":1007,
@@ -165,7 +165,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.570587,34.688717 ]
+       "coordinates":  [ 137.570406,34.688595 ]
     },
     "properties": {
     "HID":1008,
@@ -185,7 +185,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.573685,34.689518 ]
+       "coordinates":  [ 137.593319,34.693664 ]
     },
     "properties": {
     "HID":1009,
@@ -205,7 +205,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.493317,34.724686 ]
+       "coordinates":  [ 137.501267,34.71584 ]
     },
     "properties": {
     "HID":1010,
@@ -225,7 +225,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.514709,34.72332 ]
+       "coordinates":  [ 137.514224,34.723453 ]
     },
     "properties": {
     "HID":1011,
@@ -245,7 +245,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.497787,34.699165 ]
+       "coordinates":  [ 137.49882,34.699619 ]
     },
     "properties": {
     "HID":1012,
@@ -265,7 +265,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.500458,34.748371 ]
+       "coordinates":  [ 137.510773,34.755394 ]
     },
     "properties": {
     "HID":1013,
@@ -285,7 +285,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.523834,34.72916 ]
+       "coordinates":  [ 137.523943,34.729536 ]
     },
     "properties": {
     "HID":1014,
@@ -305,7 +305,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.560196,34.687031 ]
+       "coordinates":  [ 137.561029,34.688609 ]
     },
     "properties": {
     "HID":1015,
@@ -325,7 +325,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.555099,34.709202 ]
+       "coordinates":  [ 137.557538,34.709824 ]
     },
     "properties": {
     "HID":1016,
@@ -345,7 +345,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.553299,34.713947 ]
+       "coordinates":  [ 137.553177,34.714114 ]
     },
     "properties": {
     "HID":1017,
@@ -365,7 +365,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.493317,34.724686 ]
+       "coordinates":  [ 137.493362,34.723739 ]
     },
     "properties": {
     "HID":1018,
@@ -385,7 +385,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.50174,34.717239 ]
+       "coordinates":  [ 137.502623,34.717095 ]
     },
     "properties": {
     "HID":1019,
@@ -405,7 +405,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.551086,34.683159 ]
+       "coordinates":  [ 137.558219,34.686673 ]
     },
     "properties": {
     "HID":1020,
@@ -425,7 +425,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.496552,34.740963 ]
+       "coordinates":  [ 137.499491,34.738737 ]
     },
     "properties": {
     "HID":1021,
@@ -445,7 +445,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.548767,34.71209 ]
+       "coordinates":  [ 137.548297,34.711126 ]
     },
     "properties": {
     "HID":1022,
@@ -465,7 +465,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.576767,34.686256 ]
+       "coordinates":  [ 137.576253,34.686138 ]
     },
     "properties": {
     "HID":1023,
@@ -485,7 +485,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.493317,34.724686 ]
+       "coordinates":  [ 137.501267,34.71584 ]
     },
     "properties": {
     "HID":1024,
@@ -505,7 +505,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.500458,34.748371 ]
+       "coordinates":  [ 137.510773,34.755394 ]
     },
     "properties": {
     "HID":1025,
@@ -525,7 +525,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.555099,34.709202 ]
+       "coordinates":  [ 137.557538,34.709824 ]
     },
     "properties": {
     "HID":1026,
@@ -545,7 +545,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.50174,34.717239 ]
+       "coordinates":  [ 137.502623,34.717095 ]
     },
     "properties": {
     "HID":1027,
@@ -565,7 +565,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.570587,34.688717 ]
+       "coordinates":  [ 137.570406,34.688595 ]
     },
     "properties": {
     "HID":1028,
@@ -585,7 +585,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.523834,34.72916 ]
+       "coordinates":  [ 137.523943,34.729536 ]
     },
     "properties": {
     "HID":1029,
@@ -605,7 +605,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.497787,34.699165 ]
+       "coordinates":  [ 137.49882,34.699619 ]
     },
     "properties": {
     "HID":1030,
@@ -625,7 +625,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.542984,34.719753 ]
+       "coordinates":  [ 137.546785,34.720708 ]
     },
     "properties": {
     "HID":1031,
@@ -645,7 +645,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.503128,34.722935 ]
+       "coordinates":  [ 137.50305,34.723656 ]
     },
     "properties": {
     "HID":1032,
@@ -665,7 +665,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.563538,34.693302 ]
+       "coordinates":  [ 137.574975,34.689096 ]
     },
     "properties": {
     "HID":1033,
@@ -685,7 +685,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.548767,34.71209 ]
+       "coordinates":  [ 137.548297,34.711126 ]
     },
     "properties": {
     "HID":1034,
@@ -705,7 +705,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.493317,34.724686 ]
+       "coordinates":  [ 137.493442,34.723602 ]
     },
     "properties": {
     "HID":1035,
@@ -725,7 +725,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.576767,34.686256 ]
+       "coordinates":  [ 137.576253,34.686138 ]
     },
     "properties": {
     "HID":1036,
@@ -745,7 +745,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.570587,34.688717 ]
+       "coordinates":  [ 137.570587,34.688595 ]
     },
     "properties": {
     "HID":1037,
@@ -1005,7 +1005,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.570587,34.688717 ]
+       "coordinates":  [ 137.570406,34.688717 ]
     },
     "properties": {
     "HID":1050,
@@ -1025,7 +1025,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.497787,34.699165 ]
+       "coordinates":  [ 137.49882,34.699619 ]
     },
     "properties": {
     "HID":1051,
@@ -1045,7 +1045,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.48494,34.734749 ]
+       "coordinates":  [ 137.483885,34.72997 ]
     },
     "properties": {
     "HID":1052,
@@ -1065,7 +1065,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.5448,34.713745 ]
+       "coordinates":  [ 137.545711,34.713322 ]
     },
     "properties": {
     "HID":1053,
@@ -1085,7 +1085,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.556793,34.711781 ]
+       "coordinates":  [ 137.556724,34.712312 ]
     },
     "properties": {
     "HID":1054,
@@ -1105,7 +1105,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.57016,34.693741 ]
+       "coordinates":  [ 137.568304,34.693695 ]
     },
     "properties": {
     "HID":1055,
@@ -1125,7 +1125,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.573685,34.689518 ]
+       "coordinates":  [ 137.593319,34.693664 ]
     },
     "properties": {
     "HID":1056,
@@ -1145,7 +1145,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.530304,34.712612 ]
+       "coordinates":  [ 137.530887,34.713327 ]
     },
     "properties": {
     "HID":1057,
@@ -1165,7 +1165,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.56723,34.693062 ]
+       "coordinates":  [ 137.33562,34.41365 ]
     },
     "properties": {
     "HID":1058,
@@ -2736,6 +2736,546 @@
     "TEL":"",
     "Add1":"静岡県湖西市",
     "Add2":"新居３２−３",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.554771,34.717953 ]
+    },
+    "properties": {
+    "HID":1115,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"表鷲津\n 多目的センター",
+    "Organization":"表鷲津地区福祉会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津2837",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.546058,34.710737 ]
+    },
+    "properties": {
+    "HID":1116,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"鷲津防災\n センター",
+    "Organization":"鷲津地区福祉会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津1163-2",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.539836,34.722299 ]
+    },
+    "properties": {
+    "HID":1117,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"河原公会堂",
+    "Organization":"河美地区福祉会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津194-19",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.542228,34.718041 ]
+    },
+    "properties": {
+    "HID":1118,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"れんが館",
+    "Organization":"河美地区福祉会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津479-31",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.535023,34.714788 ]
+    },
+    "properties": {
+    "HID":1119,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"古見公会堂",
+    "Organization":"古見地域福祉会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"古見895-6",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.528348,34.706251 ]
+    },
+    "properties": {
+    "HID":1122,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"山口公会堂",
+    "Organization":"山口地域福祉会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"山口151-2",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.518272,34.6999 ]
+    },
+    "properties": {
+    "HID":1123,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"坊瀬公会堂",
+    "Organization":"坊瀬地域福祉会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"坊瀬161-1",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.52899,34.681991 ]
+    },
+    "properties": {
+    "HID":1124,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"公会堂",
+    "Organization":"白須賀地区福祉会１区支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"白須賀141",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.520788,34.679583 ]
+    },
+    "properties": {
+    "HID":1125,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"宮本集落センター",
+    "Organization":"白須賀地区福祉会２区支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"白須賀449",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.520788,34.679583 ]
+    },
+    "properties": {
+    "HID":1126,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"３区公会堂",
+    "Organization":"白須賀地区福祉会３区支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"白須賀4902",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.495394,34.687604 ]
+    },
+    "properties": {
+    "HID":1128,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"長谷西丁公会堂",
+    "Organization":"白須賀地区福祉会５区支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"白須賀3055",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.496691,34.694117 ]
+    },
+    "properties": {
+    "HID":1129,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"境宿公会堂",
+    "Organization":"白須賀地区福祉会６区支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"境宿８６－１",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.510063,34.736771 ]
+    },
+    "properties": {
+    "HID":1130,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"大森公会堂",
+    "Organization":"岡崎地区福祉会大森支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所5430-2",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.492343,34.718345 ]
+    },
+    "properties": {
+    "HID":1132,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"南上の原集会所",
+    "Organization":"岡崎地区福祉会上の原支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"南台2丁目15-36",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.485804,34.723242 ]
+    },
+    "properties": {
+    "HID":1134,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"ふれあい会館",
+    "Organization":"岡崎地区福祉会新所原支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所原三丁目3-13",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.48434,34.733965 ]
+    },
+    "properties": {
+    "HID":1135,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"微笑保育園世代間交流室",
+    "Organization":"岡崎地区福祉会梅田支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"梅田128-3",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.534428,34.733889 ]
+    },
+    "properties": {
+    "HID":1136,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"新所幼稚園にこにこホール",
+    "Organization":"新所自治会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所2820",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.529115,34.749427 ]
+    },
+    "properties": {
+    "HID":1137,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"入出集落\n センター",
+    "Organization":"入出自治会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"入出1799-2",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.50997,34.751711 ]
+    },
+    "properties": {
+    "HID":1139,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"各地区公会堂",
+    "Organization":"青平自治会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"大知波472-1",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.508231,34.760236 ]
+    },
+    "properties": {
+    "HID":1140,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"各地区公会堂",
+    "Organization":"大知波自治会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"大知波923",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.517589,34.759713 ]
+    },
+    "properties": {
+    "HID":1141,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"各地区公会堂",
+    "Organization":"利木自治会",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"利木164-4",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.570528,34.688509 ]
+    },
+    "properties": {
+    "HID":1143,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"柏原公民館",
+    "Organization":"新居南部地区福祉会 柏原支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居118-1",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.56797,34.69236 ]
+    },
+    "properties": {
+    "HID":1144,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"ベイリーフコミュニティセンター",
+    "Organization":"新居南部地区福祉会 ベイリーフ支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居248-4",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.571048,34.682382 ]
+    },
+    "properties": {
+    "HID":1145,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"住吉公民館",
+    "Organization":"新居南部地区福祉会 住吉支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居3033-9",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.56334,34.699292 ]
+    },
+    "properties": {
+    "HID":1146,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"郷南公民館",
+    "Organization":"中之郷地区福祉会 郷南郷北支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"中之郷3621-67",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.554982,34.700927 ]
+    },
+    "properties": {
+    "HID":1147,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"三ツ谷公民館",
+    "Organization":"中之郷地区福祉会 三ツ谷支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"中之郷1056",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.548113,34.707707 ]
+    },
+    "properties": {
+    "HID":1148,
+    "Type":"いきいきサロン",
+    "SubType":"",
+    "Name":"あけぼの公民館",
+    "Organization":"中之郷地区福祉会 あけぼの支部",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"中之郷3886",
     "url":"",
     "business_hours":"",
     "regular_holiday":""
