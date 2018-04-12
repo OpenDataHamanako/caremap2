@@ -3280,7 +3280,7 @@
     "business_hours":"",
     "regular_holiday":""
     }
-  }
+  },
   {
     "type": "Feature",
     "geometry": {
@@ -3300,7 +3300,6 @@
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
-  },
-  
+  }
 ]
 }
