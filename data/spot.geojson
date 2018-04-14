@@ -845,7 +845,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.560196,34.687031 ]
+       "coordinates":  [ 137.56065,34.68713 ]
     },
     "properties": {
     "HID":1042,
@@ -925,7 +925,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.500458,34.748371 ]
+       "coordinates":  [ 137.51085,34.75517 ]
     },
     "properties": {
     "HID":1046,
@@ -945,7 +945,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.555099,34.709202 ]
+       "coordinates":  [ 137.55724,34.70961 ]
     },
     "properties": {
     "HID":1047,
@@ -985,7 +985,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.493317,34.724686 ]
+       "coordinates":  [ 137.50129,34.71581 ]
     },
     "properties": {
     "HID":1049,
@@ -1465,7 +1465,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.5457111,34.70917433 ]
+       "coordinates":  [ 137.54268,34.71251 ]
     },
     "properties": {
     "HID":1077,
@@ -1585,17 +1585,17 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.499477,34.717109 ]
+       "coordinates":  [ 137.54055,34.70967 ]
     },
     "properties": {
-    "HID":1083,
+    "HID":1149,
     "Type":"医院",
-    "SubType":"アレルギー科、皮膚科、",
-    "Name":"西遠皮膚科ｱﾚﾙｷﾞｰクリニック",
+    "SubType":"アレルギー科、皮膚科",
+    "Name":"西遠皮膚科アレルギークリニック",
     "Organization":"",
     "TEL":"053-574-3741",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津３３１８-１",
+    "Add2":"鷲津３３１８－１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12899&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
