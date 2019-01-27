@@ -3290,7 +3290,7 @@
     "properties": {
     "HID":1149,
     "Type":"認知症初期集中支援チーム",
-    "SubType":"",
+    "SubType":"認知症初期集中支援チーム",
     "Name":"認知症初期集中支援チーム　湖西白萩",
     "Organization":"",
     "TEL":"053-573-2050",
@@ -3310,7 +3310,7 @@
     "properties": {
     "HID":1150,
     "Type":"認知症初期集中支援チーム",
-    "SubType":"",
+    "SubType":"認知症初期集中支援チーム",
     "Name":"認知症初期集中支援チーム　光湖苑",
     "Organization":"",
     "TEL":"053-577-5455",
@@ -3330,7 +3330,7 @@
     "properties": {
     "HID":1151,
     "Type":"認知症初期集中支援チーム",
-    "SubType":"",
+    "SubType":"認知症初期集中支援チーム",
     "Name":"認知症初期集中支援チーム　恵翔苑",
     "Organization":"",
     "TEL":"053-595-1114",
@@ -3350,7 +3350,7 @@
     "properties": {
     "HID":1152,
     "Type":"認知症初期集中支援チーム",
-    "SubType":"",
+    "SubType":"認知症初期集中支援チーム",
     "Name":"認知症初期集中支援チーム　燦光",
     "Organization":"",
     "TEL":"053-594-7474",
@@ -3370,7 +3370,7 @@
     "properties": {
     "HID":1153,
     "Type":"認知症地域支援推進員",
-    "SubType":"",
+    "SubType":"認知症地域支援推進員",
     "Name":"認知症地域支援推進員　湖西白萩",
     "Organization":"",
     "TEL":"053-573-2050",
@@ -3390,7 +3390,7 @@
     "properties": {
     "HID":1154,
     "Type":"認知症地域支援推進員",
-    "SubType":"",
+    "SubType":"認知症地域支援推進員",
     "Name":"認知症地域支援推進員　光湖苑",
     "Organization":"",
     "TEL":"053-577-5455",
@@ -3410,7 +3410,7 @@
     "properties": {
     "HID":1155,
     "Type":"認知症地域支援推進員",
-    "SubType":"",
+    "SubType":"認知症地域支援推進員",
     "Name":"認知症地域支援推進員　恵翔苑",
     "Organization":"",
     "TEL":"053-595-1114",
@@ -3430,7 +3430,7 @@
     "properties": {
     "HID":1156,
     "Type":"認知症地域支援推進員",
-    "SubType":"",
+    "SubType":"認知症地域支援推進員",
     "Name":"認知症地域支援推進員　燦光",
     "Organization":"",
     "TEL":"053-594-7474",
@@ -3449,7 +3449,7 @@
     },
     "properties": {
     "HID":1157,
-    "Type":"カフェ",
+    "Type":"認知症カフェ",
     "SubType":"カフェ",
     "Name":"オハナカフェ",
     "Organization":"",
@@ -3469,7 +3469,7 @@
     },
     "properties": {
     "HID":1158,
-    "Type":"カフェ",
+    "Type":"認知症カフェ",
     "SubType":"カフェ",
     "Name":"一円荘カフェ",
     "Organization":"",
@@ -3489,7 +3489,7 @@
     },
     "properties": {
     "HID":1159,
-    "Type":"カフェ",
+    "Type":"認知症カフェ",
     "SubType":"カフェ",
     "Name":"カフェ燦光",
     "Organization":"",
