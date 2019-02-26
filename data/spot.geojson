@@ -3289,7 +3289,7 @@
     },
     "properties": {
     "HID":1149,
-    "Type":"認知症初期集中支援チーム",
+    "Type":"福祉施設",
     "SubType":"認知症初期集中支援チーム",
     "Name":"認知症初期集中支援チーム　湖西白萩",
     "Organization":"",
@@ -3309,7 +3309,7 @@
     },
     "properties": {
     "HID":1150,
-    "Type":"認知症初期集中支援チーム",
+    "Type":"福祉施設",
     "SubType":"認知症初期集中支援チーム",
     "Name":"認知症初期集中支援チーム　光湖苑",
     "Organization":"",
@@ -3329,7 +3329,7 @@
     },
     "properties": {
     "HID":1151,
-    "Type":"認知症初期集中支援チーム",
+    "Type":"福祉施設",
     "SubType":"認知症初期集中支援チーム",
     "Name":"認知症初期集中支援チーム　恵翔苑",
     "Organization":"",
@@ -3349,7 +3349,7 @@
     },
     "properties": {
     "HID":1152,
-    "Type":"認知症初期集中支援チーム",
+    "Type":"福祉施設",
     "SubType":"認知症初期集中支援チーム",
     "Name":"認知症初期集中支援チーム　燦光",
     "Organization":"",
@@ -3369,7 +3369,7 @@
     },
     "properties": {
     "HID":1153,
-    "Type":"認知症地域支援推進員",
+    "Type":"福祉施設",
     "SubType":"認知症地域支援推進員",
     "Name":"認知症地域支援推進員　湖西白萩",
     "Organization":"",
@@ -3389,7 +3389,7 @@
     },
     "properties": {
     "HID":1154,
-    "Type":"認知症地域支援推進員",
+    "Type":"福祉施設",
     "SubType":"認知症地域支援推進員",
     "Name":"認知症地域支援推進員　光湖苑",
     "Organization":"",
@@ -3409,7 +3409,7 @@
     },
     "properties": {
     "HID":1155,
-    "Type":"認知症地域支援推進員",
+    "Type":"福祉施設",
     "SubType":"認知症地域支援推進員",
     "Name":"認知症地域支援推進員　恵翔苑",
     "Organization":"",
@@ -3429,7 +3429,7 @@
     },
     "properties": {
     "HID":1156,
-    "Type":"認知症地域支援推進員",
+    "Type":"福祉施設",
     "SubType":"認知症地域支援推進員",
     "Name":"認知症地域支援推進員　燦光",
     "Organization":"",
@@ -3449,8 +3449,8 @@
     },
     "properties": {
     "HID":1157,
-    "Type":"認知症カフェ",
-    "SubType":"カフェ",
+    "Type":"福祉施設",
+    "SubType":"認知症カフェ",
     "Name":"オハナカフェ",
     "Organization":"",
     "TEL":"053-573-2254",
@@ -3469,8 +3469,8 @@
     },
     "properties": {
     "HID":1158,
-    "Type":"認知症カフェ",
-    "SubType":"カフェ",
+    "Type":"福祉施設",
+    "SubType":"認知症カフェ",
     "Name":"一円荘カフェ",
     "Organization":"",
     "TEL":"053-579-3902",
@@ -3489,8 +3489,8 @@
     },
     "properties": {
     "HID":1159,
-    "Type":"認知症カフェ",
-    "SubType":"カフェ",
+    "Type":"福祉施設",
+    "SubType":"認知症カフェ",
     "Name":"カフェ燦光",
     "Organization":"",
     "TEL":"053-594-7474",
