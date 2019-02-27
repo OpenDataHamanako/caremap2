@@ -305,7 +305,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.560543,34.687142 ]
+       "coordinates":  [ 137.56065,34.68713 ]
     },
     "properties": {
     "HID":1015,
@@ -365,7 +365,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.493362,34.723739 ]
+       "coordinates":  [ 137.493448,34.723728 ]
     },
     "properties": {
     "HID":1018,
@@ -535,7 +535,7 @@
     "Organization":"",
     "TEL":"053−595−1111",
     "Add1":"静岡県湖西市",
-    "Add2":"新居町中之郷３６３６番地２１",
+    "Add2":"新居町中之郷3636番地21",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_025_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=025",
     "business_hours":"",
     "regular_holiday":""
@@ -865,7 +865,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.55724,34.70961 ]
+       "coordinates":  [ 137.557538,34.709824 ]
     },
     "properties": {
     "HID":1043,
@@ -931,7 +931,7 @@
     "HID":1046,
     "Type":"福祉施設",
     "SubType":"介護老人福祉施設",
-    "Name":"特別養護老人ホーム　湖西白萩",
+    "Name":"特別養護老人ホーム湖西白萩",
     "Organization":"",
     "TEL":"053-573-2000",
     "Add1":"静岡県湖西市",
@@ -945,7 +945,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.55724,34.70961 ]
+       "coordinates":  [ 137.557538,34.709824 ]
     },
     "properties": {
     "HID":1047,
@@ -1685,7 +1685,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.4932,34.72384 ]
+       "coordinates":  [ 137.493448,34.723728 ]
     },
     "properties": {
     "HID":1088,
@@ -3291,7 +3291,7 @@
     "HID":1149,
     "Type":"福祉施設",
     "SubType":"認知症初期集中支援チーム",
-    "Name":"認知症初期集中支援チーム　湖西白萩",
+    "Name":"認知症初期集中支援チーム湖西白萩",
     "Organization":"",
     "TEL":"053-573-2050",
     "Add1":"静岡県湖西市",
@@ -3371,7 +3371,7 @@
     "HID":1153,
     "Type":"福祉施設",
     "SubType":"認知症地域支援推進員",
-    "Name":"認知症地域支援推進員　湖西白萩",
+    "Name":"認知症地域支援推進員湖西白萩",
     "Organization":"",
     "TEL":"053-573-2050",
     "Add1":"静岡県湖西市",
@@ -3631,7 +3631,7 @@
     "HID":1166,
     "Type":"福祉施設",
     "SubType":"地域包括支援センター",
-    "Name":"地域包括支援センター　湖西白萩",
+    "Name":"地域包括支援センター湖西白萩",
     "Organization":"",
     "TEL":"053-573-2050",
     "Add1":"静岡県湖西市",
