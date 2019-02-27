@@ -1505,7 +1505,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.5520417,34.70915653 ]
+       "coordinates":  [ 137.548952,34.712503 ]
     },
     "properties": {
     "HID":1079,
