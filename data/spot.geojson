@@ -110,7 +110,7 @@
     "properties": {
     "HID":1005,
     "Type":"福祉施設",
-    "SubType":"訪問介護",
+    "SubType":"訪問看護",
     "Name":"訪問看護ステーション　はまな",
     "Organization":"",
     "TEL":"053-577-0333",
@@ -130,7 +130,7 @@
     "properties": {
     "HID":1006,
     "Type":"福祉施設",
-    "SubType":"訪問介護",
+    "SubType":"訪問看護",
     "Name":"湖西市訪問看護ステーション",
     "Organization":"",
     "TEL":"053-574-2940",
@@ -970,7 +970,7 @@
     "properties": {
     "HID":1048,
     "Type":"福祉施設",
-    "SubType":"介護老人保健施設、介護療養",
+    "SubType":"介護老人保健施設",
     "Name":"医療法人浜名会介護老人保健施設まんさくの里",
     "Organization":"",
     "TEL":"053-572-3911",
@@ -985,19 +985,19 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.501267,34.71584 ]
+       "coordinates":  [ 137.50174,34.717239 ]
     },
     "properties": {
     "HID":1049,
     "Type":"福祉施設",
-    "SubType":"認知症対応型通所介護",
-    "Name":"老人デイサービスセンター光湖苑",
+    "SubType":"介護療養",
+    "Name":"医療法人浜名会介護老人保健施設まんさくの里",
     "Organization":"",
-    "TEL":"053-577-4511",
+    "TEL":"053-572-3911",
     "Add1":"静岡県湖西市",
-    "Add2":"新所岡崎梅田入会地17-20",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_007_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=007",
-    "business_hours":"8時15分〜17時15分",
+    "Add2":"岡崎１３５３−１",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_027_kani=true&JigyosyoCd=2258480017-00&PrefCd=22&VersionCd=027",
+    "business_hours":"",
     "regular_holiday":""
     }
   },
@@ -3510,7 +3510,7 @@
     "properties": {
     "HID":1160,
     "Type":"福祉施設",
-    "SubType":"訪問介護",
+    "SubType":"訪問看護",
     "Name":"訪問看護ステーション　湖西",
     "Organization":"",
     "TEL":"053-488-7770",
@@ -3710,7 +3710,7 @@
     "properties": {
     "HID":1170,
     "Type":"福祉施設",
-    "SubType":"居宅介護支援センター",
+    "SubType":"居宅介護支援",
     "Name":"ケアプランセンター陽菜",
     "Organization":"",
     "TEL":"053-574-1550",
@@ -3858,6 +3858,26 @@
     "Add2":"鷲津2522-4",
     "url":"",
     "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.501267,34.71584 ]
+    },
+    "properties": {
+    "HID":1178,
+    "Type":"福祉施設",
+    "SubType":"認知症対応型通所介護",
+    "Name":"老人デイサービスセンター光湖苑",
+    "Organization":"",
+    "TEL":"053-577-4511",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所岡崎梅田入会地17-20",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_007_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=007",
+    "business_hours":"8時15分〜17時15分",
     "regular_holiday":""
     }
   }
