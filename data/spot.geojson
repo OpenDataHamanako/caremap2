@@ -3880,6 +3880,26 @@
     "business_hours":"8時15分〜17時15分",
     "regular_holiday":""
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.493448,34.723728 ]
+    },
+    "properties": {
+    "HID":1179,
+    "Type":"福祉施設",
+    "SubType":"介護療養",
+    "Name":"浜名病院",
+    "Organization":"",
+    "TEL":"053-577-2333",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所岡崎梅田入会地15-70",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10165&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
+    }
   }
 ]
 }
