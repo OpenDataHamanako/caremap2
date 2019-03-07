@@ -985,18 +985,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.50174,34.717239 ]
+       "coordinates":  [ 137.501267,34.71584 ]
     },
     "properties": {
     "HID":1049,
     "Type":"福祉施設",
-    "SubType":"介護療養",
-    "Name":"医療法人浜名会介護老人保健施設まんさくの里",
+    "SubType":"認知症対応型デイ",
+    "Name":"光湖苑",
     "Organization":"",
-    "TEL":"053-572-3911",
+    "TEL":"053-577-4511",
     "Add1":"静岡県湖西市",
-    "Add2":"岡崎１３５３−１",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_027_kani=true&JigyosyoCd=2258480017-00&PrefCd=22&VersionCd=027",
+    "Add2":"新所岡崎梅田入会地17-20",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_024_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=024",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3751,7 +3751,7 @@
     "HID":1172,
     "Type":"福祉施設",
     "SubType":"小規模多機能型居宅介護",
-    "Name":"おかさきグループホーム",
+    "Name":"おかさき小規模多機能ホーム",
     "Organization":"",
     "TEL":"053-573-3800",
     "Add1":"静岡県湖西市",
@@ -3891,6 +3891,26 @@
     "HID":1179,
     "Type":"福祉施設",
     "SubType":"介護療養",
+    "Name":"浜名病院",
+    "Organization":"",
+    "TEL":"053-577-2333",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所岡崎梅田入会地15-70",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10165&kinouid=fk9102",
+    "business_hours":"",
+    "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.493448,34.723728 ]
+    },
+    "properties": {
+    "HID":1180,
+    "Type":"福祉施設",
+    "SubType":"短期入所療養介護",
     "Name":"浜名病院",
     "Organization":"",
     "TEL":"053-577-2333",
