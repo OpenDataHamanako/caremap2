@@ -371,7 +371,7 @@
     "HID":1018,
     "Type":"福祉施設",
     "SubType":"通所リハビリテーション",
-    "Name":"医療法人浜名会　浜名病院　通所リハビリテーションセンター こでまり",
+    "Name":"浜名病院　通所リハビリテーションセンター こでまり",
     "Organization":"",
     "TEL":"053-573-0088",
     "Add1":"静岡県湖西市",
@@ -391,7 +391,7 @@
     "HID":1019,
     "Type":"福祉施設",
     "SubType":"通所リハビリテーション",
-    "Name":"医療法人浜名会介護老人保健施設まんさくの里通所リハビリテーション",
+    "Name":"介護老人保健施設まんさくの里通所リハビリテーション",
     "Organization":"",
     "TEL":"053-572-3911",
     "Add1":"静岡県湖西市",
@@ -551,7 +551,7 @@
     "HID":1027,
     "Type":"福祉施設",
     "SubType":"短期入所療養介護",
-    "Name":"医療法人浜名会介護老人保健施設まんさくの里",
+    "Name":"介護老人保健施設まんさくの里",
     "Organization":"",
     "TEL":"053-572-3911",
     "Add1":"静岡県湖西市",
@@ -711,7 +711,7 @@
     "HID":1035,
     "Type":"福祉施設",
     "SubType":"居宅介護支援",
-    "Name":"医療法人浜名会　浜名居宅介護支援センター",
+    "Name":"浜名居宅介護支援センター",
     "Organization":"",
     "TEL":"053-573-0700",
     "Add1":"静岡県湖西市",
@@ -798,26 +798,6 @@
     "Add2":"古見1044番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
     "business_hours":"8時30分〜17時15分",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.503128,34.722935 ]
-    },
-    "properties": {
-    "HID":1040,
-    "Type":"福祉施設",
-    "SubType":"居宅介護支援",
-    "Name":"一円荘ケアプランセンター",
-    "Organization":"",
-    "TEL":"053-573-3800",
-    "Add1":"静岡県湖西市",
-    "Add2":"岡崎９４９−１",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400086-00&PrefCd=22&VersionCd=023",
-    "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
   },
@@ -971,7 +951,7 @@
     "HID":1048,
     "Type":"福祉施設",
     "SubType":"介護老人保健施設",
-    "Name":"医療法人浜名会介護老人保健施設まんさくの里",
+    "Name":"介護老人保健施設まんさくの里",
     "Organization":"",
     "TEL":"053-572-3911",
     "Add1":"静岡県湖西市",
@@ -1051,7 +1031,7 @@
     "HID":1052,
     "Type":"福祉施設",
     "SubType":"地域密着型通所介護",
-    "Name":"医療法人浜名会　浜名デイサービスセンターなでしこ",
+    "Name":"浜名デイサービスセンターなでしこ",
     "Organization":"",
     "TEL":"053-577-1105",
     "Add1":"静岡県湖西市",
@@ -1085,17 +1065,17 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.556724,34.712312 ]
+       "coordinates":  [ 137.561794,34.699533 ]
     },
     "properties": {
     "HID":1054,
     "Type":"福祉施設",
     "SubType":"地域密着型通所介護",
-    "Name":"高齢者自立支援センター　ねこのて",
+    "Name":"高齢者自立支援センター　ねこの手",
     "Organization":"",
     "TEL":"053-522-7773",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津３０８５",
+    "Add2":"新居町中之郷92－7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400235-00&PrefCd=22&VersionCd=033",
     "business_hours":"09時00分〜17時00分",
     "regular_holiday":""
@@ -1645,7 +1625,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.5469129,34.71159103 ]
+       "coordinates":  [ 137.543893,34.714892 ]
     },
     "properties": {
     "HID":1086,
@@ -3478,7 +3458,7 @@
     "Add2":"白須賀3986-7 一円荘　白須賀",
     "url":"",
     "business_hours":"9時30分～11時",
-    "regular_holiday":"偶数月第2水曜日 参加料：100円"
+    "regular_holiday":"偶数月第2水曜日（休止中） 参加料：100円"
     }
   },
   {
@@ -3498,7 +3478,7 @@
     "Add2":"新居町新居1800-1 あらいデイサービスセンター",
     "url":"",
     "business_hours":"",
-    "regular_holiday":"2、3回／年 不定期開催"
+    "regular_holiday":"3回／年 不定期開催"
     }
   },
   {
@@ -3556,26 +3536,6 @@
     "TEL":"053-596-9747",
     "Add1":"静岡県湖西市",
     "Add2":"古見996-1",
-    "url":"",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.544869,34.703185 ]
-    },
-    "properties": {
-    "HID":1163,
-    "Type":"福祉施設",
-    "SubType":"特定福祉用具販売",
-    "Name":"星医療酸素東海浜松営業所",
-    "Organization":"",
-    "TEL":"053-574-3026",
-    "Add1":"静岡県湖西市",
-    "Add2":"鷲津2817",
     "url":"",
     "business_hours":"",
     "regular_holiday":""
@@ -3919,6 +3879,87 @@
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10165&kinouid=fk9102",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
+    }
+  },
+.
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.557579,34.709609 ]
+    },
+    "properties": {
+    "HID":1181,
+    "Type":"福祉施設",
+    "SubType":"認知症カフェ",
+    "Name":"ひまわりカフェ",
+    "Organization":"",
+    "TEL":"053-595-1114",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町中之郷3636-21",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":"毎月第4水曜日　参加料200円"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.557579,34.709609 ]
+    },
+    "properties": {
+    "HID":1182,
+    "Type":"福祉施設",
+    "SubType":"認知症カフェ",
+    "Name":"ひまわりカフェin表鷲津",
+    "Organization":"",
+    "TEL":"053-595-1114",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町中之郷3636-21",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":"毎月第4水曜日　参加料200円"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.502623,34.717095 ]
+    },
+    "properties": {
+    "HID":1183,
+    "Type":"福祉施設",
+    "SubType":"訪問リハビリテーション",
+    "Name":"医療法人浜名会介護老人保健施設まんさくの里訪問リハビリテーション",
+    "Organization":"",
+    "TEL":"053-572-3911",
+    "Add1":"静岡県湖西市",
+    "Add2":"岡崎１３５３−１",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.543965,34.716487 ]
+    },
+    "properties": {
+    "HID":1184,
+    "Type":"福祉施設",
+    "SubType":"地域密着型通所介護",
+    "Name":"R.Yリハビリセンター",
+    "Organization":"",
+    "TEL":"053-571-7200",
+    "Add1":"静岡県湖西市",
+    "Add2":"湖西市鷲津5273",
+    "url":"",
+    "business_hours":"",
+    "regular_holiday":""
     }
   }
 ]
