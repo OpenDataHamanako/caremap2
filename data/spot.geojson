@@ -3885,30 +3885,10 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.557579,34.7097100 ]
-    },
-    "properties": {
-    "HID":1181,
-    "Type":"福祉施設",
-    "SubType":"認知症カフェ",
-    "Name":"ひまわりカフェ",
-    "Organization":"",
-    "TEL":"053-595-1114",
-    "Add1":"静岡県湖西市",
-    "Add2":"新居町中之郷3636-21",
-    "url":"",
-    "business_hours":"",
-    "regular_holiday":"毎月第4水曜日　参加料200円"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.557579,34.709609 ]
     },
     "properties": {
-    "HID":1182,
+    "HID":1181,
     "Type":"福祉施設",
     "SubType":"認知症カフェ",
     "Name":"ひまわりカフェ、ひまわりカフェin表鷲津",
@@ -3928,7 +3908,7 @@
        "coordinates":  [ 137.502623,34.717095 ]
     },
     "properties": {
-    "HID":1183,
+    "HID":1182,
     "Type":"福祉施設",
     "SubType":"訪問リハビリテーション",
     "Name":"介護老人保健施設まんさくの里訪問リハビリテーション",
@@ -3948,7 +3928,7 @@
        "coordinates":  [ 137.543965,34.716487 ]
     },
     "properties": {
-    "HID":1184,
+    "HID":1183,
     "Type":"福祉施設",
     "SubType":"通所リハビリテーション",
     "Name":"R.Yリハビリセンター",
