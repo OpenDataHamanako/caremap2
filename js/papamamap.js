@@ -380,7 +380,11 @@ Papamamap.prototype.getPopupContent = function(feature) {
         if (feature.get('Type') == '医院' || feature.get('Type') == '歯科医院'){
             content += '<th>休診</th>';
         } else {
-            content += '<th>定休日</th>';
+        	if (feature.get('SubType') == '認知症カフェ'){
+            	content += '<th>開催日</th>';
+        	} else {
+            	content += '<th>定休日</th>';
+        	}
         }
         content += '<td>' + regular_holiday + '</td>';
         content += '</tr>';
