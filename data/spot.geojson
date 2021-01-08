@@ -17,6 +17,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見１０４４番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=001",
+    "Memo":"",
     "business_hours":"8時30分〜17時15分",
     "regular_holiday":""
     }
@@ -37,26 +38,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"吉美3270-5",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400151-00&PrefCd=22&VersionCd=001",
-    "business_hours":"8時30分〜17時30分",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.545711,34.713322 ]
-    },
-    "properties": {
-    "HID":1002,
-    "Type":"福祉施設",
-    "SubType":"訪問介護",
-    "Name":"ふじの花訪問介護事業所",
-    "Organization":"",
-    "TEL":"053-576-4687",
-    "Add1":"静岡県湖西市",
-    "Add2":"鷲津１０９５−１３",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400169-00&PrefCd=22&VersionCd=001",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -77,6 +59,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所838番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400185-00&PrefCd=22&VersionCd=001",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -97,6 +80,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見1044番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=001",
+    "Memo":"",
     "business_hours":"08時30分〜17時15分",
     "regular_holiday":""
     }
@@ -117,6 +101,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地15番地70",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_004_kani=true&JigyosyoCd=2268490014-00&PrefCd=22&VersionCd=004",
+    "Memo":"",
     "business_hours":"8時45分〜18時15分",
     "regular_holiday":""
     }
@@ -137,6 +122,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見1044",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_004_kani=true&JigyosyoCd=2268490022-00&PrefCd=22&VersionCd=004",
+    "Memo":"",
     "business_hours":"8時30分〜17時15分",
     "regular_holiday":""
     }
@@ -157,6 +143,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1800番地の1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278200049-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"09時00分〜16時15分",
     "regular_holiday":""
     }
@@ -177,6 +164,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居117-3",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278200163-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -197,6 +185,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居字新弁天3394-4",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278200189-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -217,6 +206,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"8時15分〜17時15分",
     "regular_holiday":""
     }
@@ -237,6 +227,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎１７０８番地の４",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400052-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -257,6 +248,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀3986-7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400094-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"8時00分〜18時00分",
     "regular_holiday":""
     }
@@ -277,6 +269,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"太田450-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400136-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"9時15分〜16時30分",
     "regular_holiday":""
     }
@@ -297,6 +290,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎2254-2",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400144-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"8時00分〜17時45分",
     "regular_holiday":""
     }
@@ -317,6 +311,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名575番",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400219-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"8時30分〜17時15分",
     "regular_holiday":""
     }
@@ -337,6 +332,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷3636番地21",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"9時20分〜16時30分",
     "regular_holiday":""
     }
@@ -357,6 +353,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津2688番1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400318-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
     "business_hours":"09時00分〜17時00分",
     "regular_holiday":""
     }
@@ -377,6 +374,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地15-70",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_009_kani=true&JigyosyoCd=2218410112-00&PrefCd=22&VersionCd=009",
+    "Memo":"",
     "business_hours":"8時30分〜18時00分",
     "regular_holiday":""
     }
@@ -397,6 +395,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎１３５３−１",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_009_kani=true&JigyosyoCd=2258480017-00&PrefCd=22&VersionCd=009",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -417,6 +416,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名８２８",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_019_kani=true&JigyosyoCd=2278200114-00&PrefCd=22&VersionCd=019",
+    "Memo":"",
     "business_hours":"9時00分〜17時00分",
     "regular_holiday":""
     }
@@ -437,6 +437,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"神座４１１−２",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_020_kani=true&JigyosyoCd=2278400243-00&PrefCd=22&VersionCd=020",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -457,6 +458,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津1191番地1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_019_kani=true&JigyosyoCd=2278400292-00&PrefCd=22&VersionCd=019",
+    "Memo":"",
     "business_hours":"9時00分〜18時00分",
     "regular_holiday":""
     }
@@ -477,6 +479,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1800番地の1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_025_kani=true&JigyosyoCd=2278200049-00&PrefCd=22&VersionCd=025",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -497,6 +500,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_025_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=025",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -517,6 +521,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"太田450-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_025_kani=true&JigyosyoCd=2278400136-00&PrefCd=22&VersionCd=025",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -537,6 +542,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷3636番地21",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_025_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=025",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -557,6 +563,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎１３５３−１",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_027_kani=true&JigyosyoCd=2258480017-00&PrefCd=22&VersionCd=027",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -577,6 +584,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居117-3",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_022_kani=true&JigyosyoCd=2278200155-00&PrefCd=22&VersionCd=022",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -597,6 +605,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎２２５４－２",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_022_kani=true&JigyosyoCd=2298400017-00&PrefCd=22&VersionCd=022",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -617,6 +626,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀3986-7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_022_kani=true&JigyosyoCd=2298400033-00&PrefCd=22&VersionCd=022",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -637,6 +647,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津２５２２－３３",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_022_kani=true&JigyosyoCd=2298400041-00&PrefCd=22&VersionCd=022",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -657,6 +668,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎949-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_022_kani=true&JigyosyoCd=2298400058-00&PrefCd=22&VersionCd=022",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -677,6 +689,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居898－7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2016_020_kani=true&JigyosyoCd=2278200171-00&PrefCd=22&VersionCd=020",
+    "Memo":"",
     "business_hours":"8時00分〜17時30分",
     "regular_holiday":""
     }
@@ -697,6 +710,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津1191-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_020_kani=true&JigyosyoCd=2278400292-00&PrefCd=22&VersionCd=020",
+    "Memo":"",
     "business_hours":"9時00分〜18時00分",
     "regular_holiday":""
     }
@@ -717,6 +731,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地字藤ヶ池１５番70",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2218410112-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
     "business_hours":"9時00分〜18時00分",
     "regular_holiday":""
     }
@@ -737,6 +752,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1800番地の1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278200049-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -757,6 +773,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居117-3",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278200163-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -777,6 +794,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -797,6 +815,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見1044番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
     "business_hours":"8時30分〜17時15分",
     "regular_holiday":""
     }
@@ -817,6 +836,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"太田450-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400136-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -837,6 +857,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名575",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400219-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
     "business_hours":"8時30分〜17時15分",
     "regular_holiday":""
     }
@@ -857,6 +878,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷3636番地21",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2016_023_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
     "business_hours":"8時45分〜17時45分",
     "regular_holiday":""
     }
@@ -877,6 +899,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1800番地の1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_024_kani=true&JigyosyoCd=2278200049-00&PrefCd=22&VersionCd=024",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -897,6 +920,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_024_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=024",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -917,6 +941,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"太田450-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_024_kani=true&JigyosyoCd=2278400136-00&PrefCd=22&VersionCd=024",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -937,6 +962,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷3636番地21",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_024_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=024",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -957,6 +983,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎１３５３−１",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_027_kani=true&JigyosyoCd=2258480017-00&PrefCd=22&VersionCd=027",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -977,6 +1004,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_024_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=024",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -997,6 +1025,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居117-3",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_021_kani=true&JigyosyoCd=2298200011-00&PrefCd=22&VersionCd=021",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -1017,6 +1046,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀3986-7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_021_kani=true&JigyosyoCd=2298400025-00&PrefCd=22&VersionCd=021",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -1037,6 +1067,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"梅田490番地1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400061-00&PrefCd=22&VersionCd=033",
+    "Memo":"",
     "business_hours":"8時30分〜17時45分",
     "regular_holiday":""
     }
@@ -1057,6 +1088,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津１０９５−１３",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400169-00&PrefCd=22&VersionCd=033",
+    "Memo":"",
     "business_hours":"9時25分〜16時30分",
     "regular_holiday":""
     }
@@ -1077,6 +1109,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷92－7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400235-00&PrefCd=22&VersionCd=033",
+    "Memo":"",
     "business_hours":"09時00分〜17時00分",
     "regular_holiday":""
     }
@@ -1097,6 +1130,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居3379-11",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400250-00&PrefCd=22&VersionCd=033",
+    "Memo":"",
     "business_hours":"8時45分〜17時00分",
     "regular_holiday":""
     }
@@ -1117,6 +1151,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居字新弁天3394-4",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2016_033_kani=true&JigyosyoCd=2278400300-00&PrefCd=22&VersionCd=033",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -1137,6 +1172,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見124-4",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400326-00&PrefCd=22&VersionCd=033",
+    "Memo":"",
     "business_hours":"10時15分〜15時30分",
     "regular_holiday":""
     }
@@ -1157,6 +1193,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居896-69",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400334-00&PrefCd=22&VersionCd=033",
+    "Memo":"",
     "business_hours":"8時30分〜17時30分",
     "regular_holiday":""
     }
@@ -1177,6 +1214,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名２０５-１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12864&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1197,6 +1235,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津５７２-１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12900&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1217,6 +1256,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎８８２-４９",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12885&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
     }
@@ -1237,6 +1277,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津１１９１-１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12407&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"土曜日午後・日曜日・祝日"
     }
@@ -1257,6 +1298,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷３６３６-２０",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12797&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1277,6 +1319,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見８６１-１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12842&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1297,6 +1340,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷３６３６-１１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12413&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -1317,6 +1361,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見８６２-５",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12901&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -1337,6 +1382,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"駅南１丁目５-６",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12904&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日・祝日"
     }
@@ -1357,6 +1403,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見６７１-１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12878&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"火曜日午後・水曜日・土曜日午後・日曜日・祝日"
     }
@@ -1377,6 +1424,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居４８６-１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12872&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1397,6 +1445,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居２０９７-１",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -1417,6 +1466,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"入出５０５",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12385&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"土曜日午後・日曜日・祝日"
     }
@@ -1437,6 +1487,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居３３６０-２",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12414&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
     }
@@ -1457,6 +1508,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津７８６-１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12784&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
@@ -1477,6 +1529,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"駅南４丁目２－３３",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12391&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"土曜日午後・日曜日・祝日"
     }
@@ -1497,6 +1550,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津2259-1",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10164&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"土曜日・日曜日・祝日"
     }
@@ -1517,6 +1571,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所原2‐5‐26",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12384&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -1537,6 +1592,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居３３５４-２７",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12400&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"土曜日午後・日曜日・祝日"
     }
@@ -1557,6 +1613,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所４０１４",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12881&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
     }
@@ -1577,6 +1634,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津３３１８－１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12899&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
@@ -1597,6 +1655,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎２５８６-３８",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12905&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1617,6 +1676,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名１６８-７",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12416&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
@@ -1637,6 +1697,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津７４０-１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12910&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日・日曜日・祝日"
     }
@@ -1657,6 +1718,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居１３２３－５",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12858&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1670,13 +1732,14 @@
     "properties": {
     "HID":1088,
     "Type":"医院",
-    "SubType":"内科、外科、整形外科、\nリハビリテーション科、\n泌尿器科、小児科、呼吸器内科、消化器内科、脳神経外科、消化器外科、眼科、\n歯科口腔外科、皮膚科、\n循環器内科、介護療養",
+    "SubType":"内科、外科、整形外科、\nリハビリテーション科、\n泌尿器科、小児科、呼吸器内科、消化器内科、脳神経外科、消化器外科、眼科、\n歯科口腔外科、皮膚科、\n循環器内科、介護医療院",
     "Name":"浜名病院",
     "Organization":"",
     "TEL":"053-577-2333",
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地15-70",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10165&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1697,6 +1760,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎１２８６－２",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -1717,6 +1781,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1602",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14436&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日・祝日"
     }
@@ -1737,6 +1802,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"南台４丁目1-1",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14676&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日　※矯正歯科は金曜日以外休診"
     }
@@ -1757,6 +1823,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀３９０４",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14412&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -1777,6 +1844,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居１００－３",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14427&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1797,6 +1865,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津７６０－２",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14438&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
@@ -1817,6 +1886,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津１１８８の１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14426&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -1837,6 +1907,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見1034-7",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14671&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -1857,6 +1928,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所原3-3-26",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14435&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -1877,6 +1949,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居3354-1",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14419&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日・祝日"
     }
@@ -1897,6 +1970,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津１８８１－３",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14429&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日・祝日"
     }
@@ -1917,6 +1991,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷173-1",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14428&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日　"
     }
@@ -1937,6 +2012,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津716-10",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14434&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -1957,6 +2033,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"駅南２－１４－９",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14424&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日・日曜日・祝日"
     }
@@ -1977,6 +2054,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見994-6",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14425&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"月曜日・日曜日・祝日"
     }
@@ -1997,6 +2075,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津５３８",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14411&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"火曜日午後・日曜日・祝日"
     }
@@ -2017,6 +2096,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居１２１５",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14420&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日・祝日"
     }
@@ -2037,6 +2117,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所原2-8-1",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14413&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -2057,6 +2138,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"大田字前田811-1",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14430&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -2077,6 +2159,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎６１０－３",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14437&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日・日曜日・祝日"
     }
@@ -2097,6 +2180,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津３４３８",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14410&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
@@ -2117,6 +2201,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見９９７－１５",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20978&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日・祝日"
     }
@@ -2137,6 +2222,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所・岡崎・梅田入会地字藤ヶ池１５－７１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20979&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後５時以降・土曜日午後２時以降・日曜日・祝日"
     }
@@ -2157,6 +2243,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎８８２－６",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20980&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
     }
@@ -2177,6 +2264,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津１２２９－１２",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20981&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"月曜日午後２時以降・金曜日午後２時以降・土曜日・日曜日・祝日"
     }
@@ -2197,6 +2285,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津７８０　さかえ薬局",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20983&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後２時以降・日曜日・祝日"
     }
@@ -2217,6 +2306,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津７４０－５",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20984&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -2237,6 +2327,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"駅南一丁目５番１０号",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20986&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後２時以降・日曜日・祝日"
     }
@@ -2257,6 +2348,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"駅南２－１２－１２",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20987&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日・祝日"
     }
@@ -2277,6 +2369,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津５１１４番地",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20988&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日"
     }
@@ -2297,6 +2390,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷２６５４－１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20989&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"なし"
     }
@@ -2317,6 +2411,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町内山２００７－１５",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20992&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"日曜日"
     }
@@ -2337,6 +2432,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居３３６２－２",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=21002&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日・土曜日午後・日曜日・祝日"
     }
@@ -2357,6 +2453,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津３３１８－３",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=21008&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
@@ -2377,6 +2474,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居１３２３－１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=21025&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -2397,6 +2495,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居４８８－１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=21040&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後４時以降・土曜日午後・日曜日・祝日"
     }
@@ -2417,6 +2516,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津１１４４－１",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=21042&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"土曜日午後・日曜日・祝日"
     }
@@ -2437,6 +2537,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津３１４３－２",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=50319&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日午後４時以降・土曜日午後・日曜日・祝日"
     }
@@ -2457,6 +2558,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"駅南４丁目４－２４",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=50541&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"土曜日・日曜日・祝日"
     }
@@ -2477,6 +2579,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見８６２－４",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=51014&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後5時以降・日曜日・祝日"
     }
@@ -2497,6 +2600,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名１６９ー５",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=51084&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -2517,6 +2621,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所原２－５－２３",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=51126&kinouid=fk9104",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
     }
@@ -2537,6 +2642,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"駅南２−３−１９",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2557,6 +2663,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津１４５９−１",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2565,7 +2672,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.511846,34.732699 ]
+       "coordinates":  [ 137.491975,34.716884 ]
     },
     "properties": {
     "HID":1133,
@@ -2573,10 +2680,11 @@
     "SubType":"",
     "Name":"すいすいクラブ",
     "Organization":"",
-    "TEL":"",
+    "TEL":"053-577-1499",
     "Add1":"静岡県湖西市",
-    "Add2":"新所５６５０−４",
+    "Add2":"南台2丁目17-20",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2597,26 +2705,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津２９８８−２",
     "url":"",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.490645,34.723602 ]
-    },
-    "properties": {
-    "HID":1135,
-    "Type":"地域の居場所",
-    "SubType":"",
-    "Name":"にこにこデー",
-    "Organization":"",
-    "TEL":"",
-    "Add1":"静岡県湖西市",
-    "Add2":"新所原東６−１０",
-    "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2637,6 +2726,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"入出７５１",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2645,7 +2735,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.535306,34.714613 ]
+       "coordinates":  [ 137.535293,34.714618 ]
     },
     "properties": {
     "HID":1137,
@@ -2653,10 +2743,11 @@
     "SubType":"",
     "Name":"寄ってこ会",
     "Organization":"",
-    "TEL":"",
+    "TEL":"053-576-1098",
     "Add1":"静岡県湖西市",
-    "Add2":"古見８９５−７",
+    "Add2":"古見895-6",
     "url":"",
+    "Memo":"古見公会堂",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2677,6 +2768,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居１１９０−３",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2697,26 +2789,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所６０７９−７",
     "url":"",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.572931,34.689409 ]
-    },
-    "properties": {
-    "HID":1140,
-    "Type":"地域の居場所",
-    "SubType":"",
-    "Name":"鈴木さんち",
-    "Organization":"",
-    "TEL":"",
-    "Add1":"静岡県湖西市",
-    "Add2":"新居３２−３",
-    "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2737,6 +2810,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津2837",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2757,6 +2831,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津1163-2",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2777,6 +2852,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津194-19",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2797,6 +2873,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津479-31",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2817,6 +2894,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見895-6",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2837,6 +2915,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"山口151-2",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2857,6 +2936,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"坊瀬161-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2877,6 +2957,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀141",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2897,6 +2978,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀449",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2917,6 +2999,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀4902",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2937,6 +3020,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀3055",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2957,6 +3041,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"境宿８６－１",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2977,6 +3062,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所5430-2",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -2997,6 +3083,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"南台2丁目15-36",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3017,6 +3104,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所原三丁目3-13",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3037,6 +3125,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"梅田128-3",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3057,6 +3146,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所2820",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3077,6 +3167,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"入出1799-2",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3097,6 +3188,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"大知波472-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3117,6 +3209,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"大知波923",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3137,6 +3230,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"利木164-4",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3157,6 +3251,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居118-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3177,6 +3272,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居248-4",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3197,6 +3293,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居3033-9",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3217,6 +3314,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"中之郷3621-67",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3237,6 +3335,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"中之郷1056",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3257,6 +3356,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"中之郷3886",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3277,6 +3377,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"太田450-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3297,6 +3398,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3317,6 +3419,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷3636番地21",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3337,6 +3440,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1800-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3357,6 +3461,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"太田450-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3377,6 +3482,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3397,6 +3503,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷3636番地21",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3417,6 +3524,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1800-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3437,6 +3545,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎2254-2 日ノ岡デイサービス",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"奇数月第3日曜日 参加料：100円～500円"
     }
@@ -3457,6 +3566,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"白須賀3986-7 一円荘　白須賀",
     "url":"",
+    "Memo":"",
     "business_hours":"9時30分～11時",
     "regular_holiday":"偶数月第2水曜日（休止中） 参加料：100円"
     }
@@ -3477,6 +3587,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1800-1 あらいデイサービスセンター",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"3回／年 不定期開催"
     }
@@ -3497,6 +3608,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津1191-1-303",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3517,6 +3629,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷1605-13",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3537,6 +3650,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見996-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3557,6 +3671,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津2522-33",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3577,6 +3692,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津1095",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"なし"
     }
@@ -3597,6 +3713,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"太田450-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3617,6 +3734,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3637,6 +3755,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷3636番地21",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3657,6 +3776,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1800-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3677,6 +3797,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"古見124-4",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3697,6 +3818,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎602-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3717,6 +3839,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎949-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3737,6 +3860,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津１０９５−１３",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3757,6 +3881,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"鷲津2688-1",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3777,6 +3902,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居字新弁天3394-4",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3797,6 +3923,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所838",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3815,8 +3942,9 @@
     "Organization":"",
     "TEL":"053-574-2687",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津2522-4",
+    "Add2":"鷲津分川3085",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3837,6 +3965,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_007_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=007",
+    "Memo":"",
     "business_hours":"8時15分〜17時15分",
     "regular_holiday":""
     }
@@ -3850,13 +3979,14 @@
     "properties": {
     "HID":1179,
     "Type":"福祉施設",
-    "SubType":"介護療養",
+    "SubType":"介護医療院",
     "Name":"浜名病院",
     "Organization":"",
     "TEL":"053-577-2333",
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地15-70",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10165&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -3877,6 +4007,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地15-70",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10165&kinouid=fk9102",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
     }
@@ -3897,6 +4028,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"新居町中之郷3636-21",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":"毎月第4水曜日（ひまわりカフェ）<br>毎月第4木曜日（in表鷲津）<br>参加料200円"
     }
@@ -3917,6 +4049,7 @@
     "Add1":"静岡県湖西市",
     "Add2":"岡崎１３５３−１",
     "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3935,8 +4068,366 @@
     "Organization":"",
     "TEL":"053-571-7200",
     "Add1":"静岡県湖西市",
-    "Add2":"湖西市鷲津5273",
+    "Add2":"鷲津5273",
     "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.533565,34.718562 ]
+    },
+    "properties": {
+    "HID":1184,
+    "Type":"福祉施設",
+    "SubType":"地域密着型通所介護",
+    "Name":"あおいそらデイサービス",
+    "Organization":"",
+    "TEL":"053-575-7050",
+    "Add1":"静岡県湖西市",
+    "Add2":"古見1034-7 サンライズヤマヤ103",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.487011,34.722431 ]
+    },
+    "properties": {
+    "HID":1185,
+    "Type":"地域の居場所",
+    "SubType":"",
+    "Name":"ふれんどサークル",
+    "Organization":"",
+    "TEL":"053-577-6230",
+    "Add1":"静岡県湖西市",
+    "Add2":"駅南2丁目4-1",
+    "url":"",
+    "Memo":"西部地域センター",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.55441,34.686465 ]
+    },
+    "properties": {
+    "HID":1186,
+    "Type":"地域の居場所",
+    "SubType":"",
+    "Name":"ふれあい広場",
+    "Organization":"",
+    "TEL":"053-594-0813",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町浜名1327",
+    "url":"",
+    "Memo":"杣川公民館",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.497498,34.723994 ]
+    },
+    "properties": {
+    "HID":1187,
+    "Type":"地域の居場所",
+    "SubType":"",
+    "Name":"上ノ原すいようカフェ",
+    "Organization":"",
+    "TEL":"053-577-3058",
+    "Add1":"静岡県湖西市",
+    "Add2":"岡崎710-1",
+    "url":"",
+    "Memo":"上ノ原公会堂",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.506678,34.722465 ]
+    },
+    "properties": {
+    "HID":1188,
+    "Type":"地域の居場所",
+    "SubType":"",
+    "Name":"ほっとカフェ・ちどりの里",
+    "Organization":"",
+    "TEL":"053-577-1057",
+    "Add1":"静岡県湖西市",
+    "Add2":"岡崎1629-2",
+    "url":"",
+    "Memo":"岡崎公会堂",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.536078,34.735062 ]
+    },
+    "properties": {
+    "HID":1189,
+    "Type":"地域の居場所",
+    "SubType":"",
+    "Name":"居場所・あさひカフェ",
+    "Organization":"",
+    "TEL":"053-578-3054",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所2787",
+    "url":"",
+    "Memo":"あさひ会館",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.518509,34.679133 ]
+    },
+    "properties": {
+    "HID":1190,
+    "Type":"地域の居場所",
+    "SubType":"",
+    "Name":"たんぽぽカフェインひばり",
+    "Organization":"",
+    "TEL":"053-577-5455",
+    "Add1":"静岡県湖西市",
+    "Add2":"白須賀513-3",
+    "url":"",
+    "Memo":"カラオケ喫茶ひばり",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.5594483,34.6868679 ]
+    },
+    "properties": {
+    "HID":1191,
+    "Type":"地域の居場所",
+    "SubType":"",
+    "Name":"地域の茶の間　日和",
+    "Organization":"",
+    "TEL":"053-594-2898",
+    "Add1":"静岡県湖西市",
+    "Add2":"",
+    "url":"",
+    "Memo":"日ヶ崎公民館",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.557233,34.687733 ]
+    },
+    "properties": {
+    "HID":1192,
+    "Type":"地域の居場所",
+    "SubType":"",
+    "Name":"しあわせカフェ　日和",
+    "Organization":"",
+    "TEL":"053-594-2898",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町浜名936-2",
+    "url":"",
+    "Memo":"疋田家　敷地内",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.506678,34.722465 ]
+    },
+    "properties": {
+    "HID":1193,
+    "Type":"社会資源",
+    "SubType":"自費通所",
+    "Name":"遊友シニア倶楽部",
+    "Organization":"",
+    "TEL":"053-573-3800",
+    "Add1":"静岡県湖西市",
+    "Add2":"岡崎949-1",
+    "url":"",
+    "Memo":"一円荘岡崎内",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.549642,34.71477 ]
+    },
+    "properties": {
+    "HID":1194,
+    "Type":"社会資源",
+    "SubType":"生活支援",
+    "Name":"シルバー人材センター",
+    "Organization":"",
+    "TEL":"053-575-0654",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津797-6",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.533611,34.733149 ]
+    },
+    "properties": {
+    "HID":1195,
+    "Type":"社会資源",
+    "SubType":"介護タクシー",
+    "Name":"介護タクシー294",
+    "Organization":"",
+    "TEL":"070-5030-5783",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所6076-14",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.502411,34.714999 ]
+    },
+    "properties": {
+    "HID":1196,
+    "Type":"社会資源",
+    "SubType":"粗大ごみの対応",
+    "Name":"環境センター（市の戸別収集）",
+    "Organization":"",
+    "TEL":"053-577-1280",
+    "Add1":"静岡県湖西市",
+    "Add2":"吉美3294-47",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.518222,34.699145 ]
+    },
+    "properties": {
+    "HID":1197,
+    "Type":"社会資源",
+    "SubType":"粗大ごみの対応",
+    "Name":"浜名環保株式会社",
+    "Organization":"",
+    "TEL":"053-573-1102",
+    "Add1":"静岡県湖西市",
+    "Add2":"坊瀬255-2",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.5526,34.699227 ]
+    },
+    "properties": {
+    "HID":1198,
+    "Type":"社会資源",
+    "SubType":"粗大ごみの対応",
+    "Name":"環境保全株式会社",
+    "Organization":"",
+    "TEL":"053-594-2323",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町中之郷1771",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.532222,34.719157 ]
+    },
+    "properties": {
+    "HID":1199,
+    "Type":"社会資源",
+    "SubType":"移送サービス・福祉車両の貸し出し",
+    "Name":"さわやかサービス（住民参加型有償活動・社会福祉協議会）",
+    "Organization":"",
+    "TEL":"053-575-0294",
+    "Add1":"静岡県湖西市",
+    "Add2":"古見1044番地 （健康福祉センターおぼと内）",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.531609,34.718468 ]
+    },
+    "properties": {
+    "HID":1200,
+    "Type":"社会資源",
+    "SubType":"空き家相談",
+    "Name":"湖西市役所建築住宅課",
+    "Organization":"",
+    "TEL":"053-576-4549",
+    "Add1":"静岡県湖西市",
+    "Add2":"吉美3268",
+    "url":"",
+    "Memo":"",
     "business_hours":"",
     "regular_holiday":""
     }
