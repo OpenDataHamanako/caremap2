@@ -180,6 +180,17 @@ Papamamap.prototype.addNurseryFacilitiesLayer = function(facilitiesData) {
             style: drugstoreStyleFunction
         })
     );
+    // 社会資源
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerSociety',
+            style: societyStyleFunction
+        })
+    );
 };
 
 /**
@@ -304,10 +315,10 @@ Papamamap.prototype.getPopupTitle = function(feature) {
     // タイトル部
     var title = '';
     var type = feature.get('種別') ? feature.get('種別') : feature.get('Type');
-    title = '[' + type + '] ';
+    title = '[' + type + ']</br>';
     var owner = feature.get('設置') ? feature.get('設置') : feature.get('Ownership');
-    if (owner !== undefined && owner !== null && owner !== "") {
-        title += ' [' + owner + ']';
+    if (owner !== undefined && owner !== null && owner !== '') {
+        title += ' [' + owner + ']</br>';
     }
     var name = feature.get('名称') ? feature.get('名称') : feature.get('Name');
     title += name;
@@ -325,7 +336,7 @@ Papamamap.prototype.getPopupContent = function(feature) {
     content = '<table><tbody>';
 
     var subtype = feature.get('SubType');
-    if (subtype !== undefined && subtype !== null && subtype !== "") {
+    if (subtype !== undefined && subtype !== null && subtype !== '') {
         content += '<tr>';
         if (feature.get('Type') == '医院' || feature.get('Type') == '歯科医院'){
             content += '<th>診療科目</th>';
@@ -335,16 +346,8 @@ Papamamap.prototype.getPopupContent = function(feature) {
         content += '<td>' + subtype + '</td>';
         content += '</tr>';
     }
-    var memo = feature.get('備考') ? feature.get('備考') : feature.get('Memo');
-    if (memo !== undefined && memo !== null) {
-        content += '<tr>';
-        content += '<th></th>';
-        content += '<td>' + memo + '</td>';
-        content += '</tr>';
-    }
-
     var tel = feature.get('TEL') ? feature.get('TEL') : feature.get('TEL');
-    if (tel !== undefined && tel !== null && tel !== "") {
+    if (tel !== undefined && tel !== null && tel !== '') {
         content += '<tr>';
         content += '<th>TEL</th>';
         content += '<td>' + tel + '</td>';
@@ -396,6 +399,14 @@ Papamamap.prototype.getPopupContent = function(feature) {
         content += '<td><a href="' + url + '" target="_blank">詳細を見る</a></td>';
         content += '</tr>';
     }
+    var memo = feature.get('備考') ? feature.get('備考') : feature.get('Memo');
+    if (memo !== undefined && memo !== null && memo !== '') {
+        content += '<tr>';
+        content += '<th>備考</th>';
+        content += '<td>' + memo + '</td>';
+        content += '</tr>';
+    }
+
     content += '</tbody></table>';
     return content;
 };
