@@ -30,9 +30,12 @@
                     <input type="checkbox" name="cbIbasho" id="cbIbasho" checked="checked">
                     <label for="cbSalon" id="lblSalon">いきいきサロン</label>
                     <input type="checkbox" name="cbSalon" id="cbSalon" checked="checked">
+                    <label for="cbSociety" id="lblSociety">社会資源</label>
+                    <input type="checkbox" name="cbSociety" id="cbSociety" checked="checked">
                     <label for="cbMiddleSchool" id="lblMiddleSchool">中学校区</label>
                     <input type="checkbox" name="cbMiddleSchool" id="cbMiddleSchool">
-                    <a id="btnFilter" href="#filterdialog" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-icon-filter ui-btn-icon-right ui-icon-check">検索</a>
+                    <a id="btnFilter" href="#filterdialog" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-icon-filter ui-btn-icon-right ui-icon-check">介護施設検索</a>
+                    <a id="btnFilter2" href="#filterdialog2" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-icon-filter ui-btn-icon-right ui-icon-check">社会資源検索</a>
                     <label for="changeBaseMap">背景</label>
                     <select id="changeBaseMap" data-mini="true">
                         <option>背景</option>
@@ -42,15 +45,17 @@
                     <label for="changeCircleRadius" class="ui-hidden-accessible">円表示</label>
                     <select id="changeCircleRadius" data-mini="true">
                         <optgroup label="円表示">
-                            <option value="" selected="selected">円消去</option>
+                            <option value="">円消去</option>
                             <option value="500">半径 500m</option>
                             <option value="1000">半径 1km</option>
                             <option value="3000">半径 3km</option>
                             <option value="5000">半径 5km</option>
                         </optgroup>
                     </select>
-                    <a id="btnHelp" href="http://www.kosai.org/odh/" target="_blank" class="ui-btn ui-icon-question ui-btn-icon-notext">help</a>
+                    <a id="ResetAll" href="#" class="ui-btn ui-btn-a ui-btn-icon-right ui-icon-delete">リセット</a>
                     <!--
+                    <a id="filterReset" href="#" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-right ui-icon-delete">リセット</a>
+                    <a id="btnHelp" href="http://www.kosai.org/odh/" target="_blank" class="ui-btn ui-icon-question ui-btn-icon-notext">help</a>
                     <a id="btnHelp" href="#helpDialog" data-rel="popup" data-position-to="window" class="ui-btn ui-icon-question ui-btn-icon-notext">help</a>
                     -->
                 </fieldset>
@@ -69,7 +74,7 @@
                 <div style="padding:10px 20px;">
                     <h3>介護施設 絞り込み</h3>
                     <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
-                        <label for="subtype" class="select">種別</label>
+                        <label for="subtype" class="select">種　別</label>
                         <select id="subtype" class="filtersb">
                             <option value="">種別</option>
                             <option value="訪問介護">訪問介護</option>
@@ -78,7 +83,7 @@
                             <option value="通所介護">通所介護</option>
                             <option value="通所リハビリテーション">通所リハビリテーション</option>
                             <option value="訪問リハビリテーション">訪問リハビリテーション</option>
-                            <option value="介護療養">介護療養</option>
+                            <option value="介護医療院">介護医療院</option>
                             <option value="介護老人福祉施設">介護老人福祉施設</option>
                             <option value="介護老人保健施設">介護老人保健施設</option>
                             <option value="短期入所生活介護">短期入所生活介護</option>
@@ -108,6 +113,30 @@
                 </div>
             </form>
         </div>
+        <div data-role="popup" data-history="false" id="filterdialog2" data-theme="a" class="ui-corner-all ui-icon-delete ui-btn-left">
+            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+            <form>
+                <div style="padding:10px 20px;">
+                    <h3>社会資源 絞り込み</h3>
+                    <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        <label for="subtype2" class="select">種　別</label>
+                        <select id="subtype2" class="filtersb">
+                            <option value="">種別</option>
+                            <option value="自費通所">自費通所</option>
+                            <option value="生活支援">生活支援</option>
+                            <option value="介護タクシー">介護タクシー</option>
+                            <option value="粗大ごみの対応">粗大ごみの対応</option>
+                            <option value="移送サービス・福祉車両の貸し出し">移送サービス・福祉車両の貸し出し</option>
+                            <option value="空き家相談">空き家相談</option>
+                        </select>
+                    </fieldset>
+                    <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        <a href="#" data-rel="back" id="filterApply2" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">条件適用</a>
+                        <a href="#" id="filterReset2" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-delete">リセット</a>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
         <div data-role="popup" data-history="false" id="helpDialog" data-theme="a" class="ui-corner-all ui-icon-delete ui-btn-left">
             <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
             <div style="padding:10px 20px;">
@@ -133,6 +162,7 @@
         <script src="js/movecurrentlocationcontrol.js" type="text/javascript"></script>
         <script src="js/movetolist.js" type="text/javascript"></script>
         <script src="js/facilityfilter.js" type="text/javascript"></script>
+        <script src="js/facilityfilter2.js" type="text/javascript"></script>
         <script src="js/papamamap.js" type="text/javascript"></script>
         <script src="js/index.js" type="text/javascript"></script>
         <div id="marker"></div>
