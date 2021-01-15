@@ -284,9 +284,11 @@ $('#mainPage').on('pageshow', function() {
             newGeoJson = filter.getFilteredFeaturesGeoJson(conditions, nurseryFacilities);
             papamamap.addNurseryFacilitiesLayer(newGeoJson);
             $('#btnFilter').css('background-color', '#3388cc');
+            $('#btnFilter2').css('background-color', '#f6f6f6');
         } else {
             papamamap.addNurseryFacilitiesLayer(nurseryFacilities);
             $('#btnFilter').css('background-color', '#f6f6f6');
+            $('#btnFilter2').css('background-color', '#f6f6f6');
             welfare = ibasho = dental = salon = hospital = drugstore = society = true;
         }
 
@@ -308,9 +310,11 @@ $('#mainPage').on('pageshow', function() {
             newGeoJson = filter.getFilteredFeaturesGeoJson(conditions, nurseryFacilities);
             papamamap.addNurseryFacilitiesLayer(newGeoJson);
             $('#btnFilter2').css('background-color', '#3388cc');
+            $('#btnFilter').css('background-color', '#f6f6f6');
         } else {
             papamamap.addNurseryFacilitiesLayer(nurseryFacilities);
             $('#btnFilter2').css('background-color', '#f6f6f6');
+            $('#btnFilter').css('background-color', '#f6f6f6');
             welfare = ibasho = dental = salon = hospital = drugstore = society = true;
         }
 
@@ -318,7 +322,7 @@ $('#mainPage').on('pageshow', function() {
         updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, drugstore: drugstore, society: society });
     });
 
-    // 絞込条件のリセット
+    // 元の状態に戻る
     $('#ResetAll').click(function(evt) {
         // チェックボックスをリセット
         $(".filtercb").each(function() {
@@ -336,6 +340,28 @@ $('#mainPage').on('pageshow', function() {
 
         // レイヤー表示状態によって施設の表示を切り替える
         updateLayerStatus({ welfare: true, ibasho: true, dental: true, salon: true, hospital: true, drugstore: true, society: true });
+        
+        clearCenterCircle();
+        
+    });
+    // すべての対象を非表示
+    $('#UnDispAll').click(function(evt) {
+        // チェックボックスをリセット
+        $(".filtercb").each(function() {
+            $(this).prop('', true).checkboxradio('refresh');
+        });
+        // セレクトボックスをリセット
+        $('.filtersb').each(function() {
+            $(this).selectmenu(); // これを実行しないと次の行でエラー発生
+            $(this).val('').selectmenu('refresh');
+        });
+        // 施設情報をリセット
+        papamamap.delNurseryFacilitiesLayer(nurseryFacilities);
+        $('#btnFilter').css('background-color', '#f6f6f6');
+        $('#btnFilter2').css('background-color', '#f6f6f6');
+
+        // レイヤー表示状態によって施設の表示を切り替える
+        updateLayerStatus({ welfare: false, ibasho: false, dental: false, salon: false, hospital: false, drugstore: false, society: false });
         
         clearCenterCircle();
         
@@ -385,20 +411,20 @@ $('#mainPage').on('pageshow', function() {
      * @return {[type]}               [description]
      */
     function updateLayerStatus(checkObj) {
-        papamamap.switchLayer($('#cbWelfare').prop('id'), checkObj.welfare);
+        //papamamap.switchLayer($('#cbWelfare').prop('id'), checkObj.welfare);
         papamamap.switchLayer($('#cbIbasho').prop('id'), checkObj.ibasho);
         papamamap.switchLayer($('#cbDental').prop('id'), checkObj.dental);
         papamamap.switchLayer($('#cbHospital').prop('id'), checkObj.hospital);
         papamamap.switchLayer($('#cbDrugStore').prop('id'), checkObj.drugstore);
         papamamap.switchLayer($('#cbSalon').prop('id'), checkObj.salon);
-        papamamap.switchLayer($('#cbSociety').prop('id'), checkObj.society);
-        $('#cbWelfare').prop('checked', checkObj.welfare).checkboxradio('refresh');
+        //papamamap.switchLayer($('#cbSociety').prop('id'), checkObj.society);
+        //$('#cbWelfare').prop('checked', checkObj.welfare).checkboxradio('refresh');
         $('#cbIbasho').prop('checked', checkObj.ibasho).checkboxradio('refresh');
         $('#cbDental').prop('checked', checkObj.dental).checkboxradio('refresh');
         $('#cbHospital').prop('checked', checkObj.hospital).checkboxradio('refresh');
         $('#cbDrugStore').prop('checked', checkObj.drugstore).checkboxradio('refresh');
         $('#cbSalon').prop('checked', checkObj.salon).checkboxradio('refresh');
-        $('#cbSociety').prop('checked', checkObj.society).checkboxradio('refresh');
+        //$('#cbSociety').prop('checked', checkObj.society).checkboxradio('refresh');
     }
 
     /**
