@@ -18,8 +18,10 @@
         <div role="main" class="ui-content">
             <div id="nav">
                 <fieldset id="nav1" data-role="controlgroup" data-type="horizontal" data-mini="true">
+                    <!--
                     <label for="cbWelfare" id="lblWelfare">介護施設</label>
                     <input type="checkbox" name="cbWelfare" id="cbWelfare" checked="checked">
+                    -->
                     <label for="cbHospital" id="lblHospital">病院</label>
                     <input type="checkbox" name="cbHospital" id="cbHospital" checked="checked">
                     <label for="cbDental" id="lblDental">歯科医院</label>
@@ -30,16 +32,20 @@
                     <input type="checkbox" name="cbIbasho" id="cbIbasho" checked="checked">
                     <label for="cbSalon" id="lblSalon">いきいきサロン</label>
                     <input type="checkbox" name="cbSalon" id="cbSalon" checked="checked">
+                    <!--
                     <label for="cbSociety" id="lblSociety">社会資源</label>
                     <input type="checkbox" name="cbSociety" id="cbSociety" checked="checked">
-                    <label for="cbMiddleSchool" id="lblMiddleSchool">中学校区</label>
+                    -->
+                    <a id="btnFilter" href="#filterdialog" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-right ui-icon-search">介護施設検索</a>
+                    <a id="btnFilter2" href="#filterdialog2" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-right ui-icon-search">社会資源検索</a>
+                    <label for="cbMiddleSchool" id="lblMiddleSchool">中学校区<span class="ui-btn-icon-right ui-icon-filter"></label>
                     <input type="checkbox" name="cbMiddleSchool" id="cbMiddleSchool">
-                    <a id="btnFilter" href="#filterdialog" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-icon-filter ui-btn-icon-right ui-icon-check">介護施設検索</a>
-                    <a id="btnFilter2" href="#filterdialog2" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-icon-filter ui-btn-icon-right ui-icon-check">社会資源検索</a>
+                    <!--
                     <label for="changeBaseMap">背景</label>
                     <select id="changeBaseMap" data-mini="true">
                         <option>背景</option>
                     </select>
+                    -->
                     <label id="lblDisplayCircle" for="cbDisplayCircle" class="ui-btn-icon-notext">距離円<span class="ui-icon-bullseye ui-btn-icon-notext"></span></label>
                     <input type="checkbox" id="cbDisplayCircle" name="cbDisplayCircle" data-mini="true" />
                     <label for="changeCircleRadius" class="ui-hidden-accessible">円表示</label>
@@ -52,11 +58,12 @@
                             <option value="5000">半径 5km</option>
                         </optgroup>
                     </select>
-                    <a id="ResetAll" href="#" class="ui-btn ui-btn-a ui-btn-icon-right ui-icon-delete">リセット</a>
+                    <a id="UnDispAll" href="#" class="ui-btn ui-btn-a ui-btn-icon-right ui-icon-delete">すべて非表示</a>
+                    <a id="ResetAll" href="#" class="ui-btn ui-btn-a ui-btn-icon-right ui-icon-check">元に戻す</a>
+                    <a id="btnHelp" href="#helpDialog" data-rel="popup" data-position-to="window" class="ui-btn ui-icon-question ui-btn-icon-notext">HELP</a>
                     <!--
                     <a id="filterReset" href="#" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-right ui-icon-delete">リセット</a>
                     <a id="btnHelp" href="http://www.kosai.org/odh/" target="_blank" class="ui-btn ui-icon-question ui-btn-icon-notext">help</a>
-                    <a id="btnHelp" href="#helpDialog" data-rel="popup" data-position-to="window" class="ui-btn ui-icon-question ui-btn-icon-notext">help</a>
                     -->
                 </fieldset>
             </div>
@@ -95,7 +102,6 @@
                             <option value="地域包括支援センター">地域包括支援センター</option>
                             <option value="居宅介護支援センター">居宅介護支援センター</option>
                             <option value="認知症対応型共同生活介護">認知症対応型共同生活介護</option>
-                            <option value="認知症対応型通所介護">認知症対応型通所介護</option>
                             <option value="認知症初期集中支援チーム">認知症初期集中支援チーム</option>
                             <option value="認知症地域支援推進員">認知症地域支援推進員</option>
                             <option value="サービス付き高齢者住宅">サービス付き高齢者住宅</option>
@@ -105,11 +111,14 @@
                             <option value="特定福祉用具販売">特定福祉用具販売</option>
                             <option value="認知症カフェ">認知症カフェ</option>
                         </select>
+                        <a href="#" data-rel="back" id="filterApply" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">条件適用</a>
                     </fieldset>
+                    <!--
                     <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
                         <a href="#" data-rel="back" id="filterApply" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">条件適用</a>
-                        <a href="#" id="filterReset" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-delete">リセット</a>
+                        <a href="#" id="filterReset" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-delete">元に戻す</a>
                     </fieldset>
+                    -->
                 </div>
             </form>
         </div>
@@ -129,11 +138,14 @@
                             <option value="移送サービス・福祉車両の貸し出し">移送サービス・福祉車両の貸し出し</option>
                             <option value="空き家相談">空き家相談</option>
                         </select>
+                        <a href="#" data-rel="back" id="filterApply2" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">条件適用</a>
                     </fieldset>
+                    <!--
                     <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
                         <a href="#" data-rel="back" id="filterApply2" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">条件適用</a>
                         <a href="#" id="filterReset2" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-delete">リセット</a>
                     </fieldset>
+                    -->
                 </div>
             </form>
         </div>
@@ -143,7 +155,7 @@
                 <h3>高齢者介護マップ</h3>
                 <fieldset>
                     <p>
-                        v1.0
+                        v1.1
                     </p>
                 </fieldset>
                 <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
