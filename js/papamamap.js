@@ -192,6 +192,106 @@ Papamamap.prototype.addNurseryFacilitiesLayer = function(facilitiesData) {
         })
     );
 };
+Papamamap.prototype.delNurseryFacilitiesLayer = function(facilitiesData) {
+    while (this.map.getLayers().getLength() > 3) {
+        this.map.removeLayer(this.map.getLayers().item(3));
+    }
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                url: 'data/school.geojson'
+            }),
+            name: 'layerElementarySchool',
+            style: elementaryStyleFunction,
+            visible: false
+        })
+    );
+    // 福祉施設
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerWelfare',
+            style: welfareStyleFunction,
+            visible: false
+        })
+    );
+    // 地域の居場所
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerIbasho',
+            style: ibashoStyleFunction,
+            visible: false
+        })
+    );
+    // 歯科医院
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerDental',
+            style: dentalStyleFunction,
+            visible: false
+        })
+    );
+    // 医院
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerHospital',
+            style: hospitalStyleFunction,
+            visible: false
+        })
+    );
+    // いきいきサロン
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerSalon',
+            style: salonStyleFunction,
+            visible: false
+        })
+    );
+    // 薬局
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerDrugStore',
+            style: drugstoreStyleFunction,
+            visible: false
+        })
+    );
+    // 社会資源
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerSociety',
+            style: societyStyleFunction,
+            visible: false
+        })
+    );
+};
 
 /**
  * 保育施設データの読み込みを行う
