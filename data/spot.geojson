@@ -2756,27 +2756,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.559871,34.694025 ]
-    },
-    "properties": {
-    "HID":1138,
-    "Type":"地域の居場所",
-    "SubType":"",
-    "Name":"地域の茶の間",
-    "Organization":"",
-    "TEL":"",
-    "Add1":"静岡県湖西市",
-    "Add2":"新居１１９０−３",
-    "url":"",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.535242,34.734247 ]
     },
     "properties": {
@@ -3938,7 +3917,7 @@
     "HID":1177,
     "Type":"福祉施設",
     "SubType":"地域密着型通所介護",
-    "Name":"風の杜デイサービス",
+    "Name":"でいの楽園",
     "Organization":"",
     "TEL":"053-574-2687",
     "Add1":"静岡県湖西市",
@@ -3958,7 +3937,7 @@
     "properties": {
     "HID":1178,
     "Type":"福祉施設",
-    "SubType":"認知症対応型通所介護",
+    "SubType":"認知症対応型デイ",
     "Name":"老人デイサービスセンター光湖苑",
     "Organization":"",
     "TEL":"053-577-4511",
