@@ -409,7 +409,7 @@
     "properties": {
     "HID":1020,
     "Type":"福祉施設",
-    "SubType":"福祉用具貸与",
+    "SubType":"福祉用具（貸与・販売）",
     "Name":"有限会社　暉サービス",
     "Organization":"",
     "TEL":"053-595-1630",
@@ -430,7 +430,7 @@
     "properties": {
     "HID":1021,
     "Type":"福祉施設",
-    "SubType":"福祉用具貸与",
+    "SubType":"福祉用具（貸与・販売）",
     "Name":"株式会社　松井住設",
     "Organization":"",
     "TEL":"053-578-0298",
@@ -451,7 +451,7 @@
     "properties": {
     "HID":1022,
     "Type":"福祉施設",
-    "SubType":"福祉用具貸与",
+    "SubType":"福祉用具（貸与・販売）",
     "Name":"ダスキンヘルスレント浜名湖ステーション",
     "Organization":"",
     "TEL":"053-576-8200",
@@ -682,7 +682,7 @@
     "properties": {
     "HID":1033,
     "Type":"福祉施設",
-    "SubType":"特定福祉用具販売",
+    "SubType":"福祉用具（貸与・販売）",
     "Name":"有限会社　山口燃料",
     "Organization":"",
     "TEL":"053-594-0035",
@@ -691,27 +691,6 @@
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2016_020_kani=true&JigyosyoCd=2278200171-00&PrefCd=22&VersionCd=020",
     "Memo":"",
     "business_hours":"8時00分〜17時30分",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.548297,34.711126 ]
-    },
-    "properties": {
-    "HID":1034,
-    "Type":"福祉施設",
-    "SubType":"特定福祉用具販売",
-    "Name":"ダスキンヘルスレント浜名湖ステーション",
-    "Organization":"",
-    "TEL":"053-576-8200",
-    "Add1":"静岡県湖西市",
-    "Add2":"鷲津1191-1",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_020_kani=true&JigyosyoCd=2278400292-00&PrefCd=22&VersionCd=020",
-    "Memo":"",
-    "business_hours":"9時00分〜18時00分",
     "regular_holiday":""
     }
   },
