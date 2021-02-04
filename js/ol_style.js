@@ -7,10 +7,27 @@ var featureStyleList = {
     '地域の居場所': { color: '#0362A0', img: 'image/019.png' },
     '歯科医院': { color: '#FF5C24', img: 'image/dentist.png' },
     '福祉施設': { color: '#6EE100', img: 'image/018.png' },
+    '総合事業': { color: '#AA0000', img: 'image/018.png' },
     '医院': { color: '#6EE1FF', img: 'image/hospital.png' },
     'いきいきサロン': { color: '#AA0000', img: 'image/019.png' },
     '薬局': { color: '#00AA00', img: 'image/drugstore.png' },
     '社会資源': { color: '#000066', img: 'image/029.png' }
+};
+
+/**
+ * 認可保育所向けスタイル
+ * @param  {[type]} feature    [description]
+ * @param  {[type]} resolution [description]
+ * @return {[type]}            [description]
+ */
+var overallStyleFunction = function(feature, resolution) {
+    var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
+    var style = [];
+    if (facilityTypeName === "総合事業") {
+        featureStyle = featureStyleList[facilityTypeName];
+        style = nurseryStyleFunction(feature, resolution, featureStyle);
+    }
+    return style;
 };
 
 /**

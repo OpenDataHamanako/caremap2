@@ -191,6 +191,17 @@ Papamamap.prototype.addNurseryFacilitiesLayer = function(facilitiesData) {
             style: societyStyleFunction
         })
     );
+    // 総合事業
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerOverall',
+            style: overallStyleFunction
+        })
+    );
 };
 Papamamap.prototype.delNurseryFacilitiesLayer = function(facilitiesData) {
     while (this.map.getLayers().getLength() > 3) {
@@ -288,6 +299,18 @@ Papamamap.prototype.delNurseryFacilitiesLayer = function(facilitiesData) {
             }),
             name: 'layerSociety',
             style: societyStyleFunction,
+            visible: false
+        })
+    );
+    // 総合事業
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerOverall',
+            style: overallStyleFunction,
             visible: false
         })
     );
