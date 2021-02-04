@@ -37,6 +37,7 @@
                     <input type="checkbox" name="cbSociety" id="cbSociety" checked="checked">
                     -->
                     <a id="btnFilter" href="#filterdialog" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-right ui-icon-search">介護施設検索</a>
+                    <a id="btnFilter3" href="#filterdialog3" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-right ui-icon-search">総合事業検索</a>
                     <a id="btnFilter2" href="#filterdialog2" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-right ui-icon-search">社会資源検索</a>
                     <label for="cbMiddleSchool" id="lblMiddleSchool">中学校区<span class="ui-btn-icon-right ui-icon-filter"></label>
                     <input type="checkbox" name="cbMiddleSchool" id="cbMiddleSchool">
@@ -45,17 +46,18 @@
                     <select id="changeBaseMap" data-mini="true">
                         <option>背景</option>
                     </select>
-                    -->
                     <label id="lblDisplayCircle" for="cbDisplayCircle" class="ui-btn-icon-notext">距離円<span class="ui-icon-bullseye ui-btn-icon-notext"></span></label>
-                    <input type="checkbox" id="cbDisplayCircle" name="cbDisplayCircle" data-mini="true" />
                     <label for="changeCircleRadius" class="ui-hidden-accessible">円表示</label>
+                    -->
+                    <input type="checkbox" id="cbDisplayCircle" name="cbDisplayCircle" data-mini="true" />
                     <select id="changeCircleRadius" data-mini="true">
                         <optgroup label="円表示">
-                            <option value="">円消去</option>
+                            <option value="">円表示</option>
                             <option value="500">半径 500m</option>
                             <option value="1000">半径 1km</option>
                             <option value="3000">半径 3km</option>
                             <option value="5000">半径 5km</option>
+                            <option value="clear">円消去</option>
                         </optgroup>
                     </select>
                     <a id="UnDispAll" href="#" class="ui-btn ui-btn-a ui-btn-icon-right ui-icon-delete">すべて非表示</a>
@@ -83,7 +85,7 @@
                     <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
                         <label for="subtype" class="select">種　別</label>
                         <select id="subtype" class="filtersb">
-                            <option value="">種別</option>
+                            <option value="">【種別】</option>
                             <option value="訪問介護">訪問介護</option>
                             <option value="訪問看護">訪問看護</option>
                             <option value="訪問入浴">訪問入浴</option>
@@ -129,7 +131,7 @@
                     <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
                         <label for="subtype2" class="select">種　別</label>
                         <select id="subtype2" class="filtersb">
-                            <option value="">種別</option>
+                            <option value="">【種別】</option>
                             <option value="自費通所">自費通所</option>
                             <option value="生活支援">生活支援</option>
                             <option value="介護タクシー">介護タクシー</option>
@@ -148,6 +150,35 @@
                 </div>
             </form>
         </div>
+        <div data-role="popup" data-history="false" id="filterdialog3" data-theme="a" class="ui-corner-all ui-icon-delete ui-btn-left">
+            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+            <form>
+                <div style="padding:10px 20px;">
+                    <h3>総合事業 絞り込み</h3>
+                    <b>通所介護相当（独自）</b>は介護施設検索で検索してください。<br />
+                    <b>通所介護</b>及び<b>地域密着型通所介護事業所</b>のすべてとなります。<br />
+                    （ただし「ケアステーションあさひ 湖西」を除く。）<br />
+                    <br />
+                    その他の検索はこちら<br />
+                    <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        <label for="subtype3" class="select">種　別</label>
+                        <select id="subtype3" class="filtersb">
+                            <option value="">【種別】</option>
+                            <option value="訪問型サービスＡ">訪問型サービスＡ</option>
+                            <option value="通所型サービスＡ">通所型サービスＡ</option>
+                        </select>
+                        <a href="#" data-rel="back" id="filterApply3" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">条件適用</a>
+                    </fieldset>
+                    <!--
+                    <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        <a href="#" data-rel="back" id="filterApply3" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-check">条件適用</a>
+                        <a href="#" id="filterReset3" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-delete">リセット</a>
+                    </fieldset>
+                    -->
+                </div>
+            </form>
+        </div>
+        
         <div data-role="popup" data-history="false" id="helpDialog" data-theme="a" class="ui-corner-all ui-icon-delete ui-btn-left">
             <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
             <div style="padding:10px 20px;">
@@ -174,6 +205,7 @@
         <script src="js/movetolist.js" type="text/javascript"></script>
         <script src="js/facilityfilter.js" type="text/javascript"></script>
         <script src="js/facilityfilter2.js" type="text/javascript"></script>
+        <script src="js/facilityfilter3.js" type="text/javascript"></script>
         <script src="js/papamamap.js" type="text/javascript"></script>
         <script src="js/index.js" type="text/javascript"></script>
         <div id="marker"></div>
