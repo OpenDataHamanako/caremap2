@@ -4389,6 +4389,174 @@
     "business_hours":"",
     "regular_holiday":""
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.532242,34.719143 ]
+    },
+    "properties": {
+    "HID":1201,
+    "Type":"総合事業",
+    "SubType":"訪問型サービスＡ",
+    "Name":"湖西市社協介護センターこさい",
+    "Organization":"",
+    "TEL":"053-575-3294",
+    "Add1":"静岡県湖西市",
+    "Add2":"古見1044番地",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
+    "business_hours":"8時30分〜17時15分",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.536536,34.740871 ]
+    },
+    "properties": {
+    "HID":1202,
+    "Type":"総合事業",
+    "SubType":"訪問型サービスＡ",
+    "Name":"こさいホームヘルパーステーション",
+    "Organization":"",
+    "TEL":"053-573-2630",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所838番地",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400185-00&PrefCd=22&VersionCd=001",
+    "Memo":"",
+    "business_hours":"8時30分〜17時30分",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.542466,34.709177 ]
+    },
+    "properties": {
+    "HID":1203,
+    "Type":"総合事業",
+    "SubType":"訪問型サービスＡ",
+    "Name":"おうちで暮らすサポートセンター",
+    "Organization":"",
+    "TEL":"070-6580-3292",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津3387アルカミーノ２階",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.514224,34.723453 ]
+    },
+    "properties": {
+    "HID":1204,
+    "Type":"総合事業",
+    "SubType":"通所型サービスＡ",
+    "Name":"デイサービスセンターひなたぼっこ",
+    "Organization":"",
+    "TEL":"053-578-1351",
+    "Add1":"静岡県湖西市",
+    "Add2":"岡埼1708-4",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.56065,34.68713 ]
+    },
+    "properties": {
+    "HID":1205,
+    "Type":"総合事業",
+    "SubType":"通所型サービスＡ",
+    "Name":"湖西市社協介護センターあらい",
+    "Organization":"",
+    "TEL":"053-594-5000",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町浜名575",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400219-00&PrefCd=22&VersionCd=023",
+    "Memo":"",
+    "business_hours":"8時30分〜17時15分",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.557538,34.709824 ]
+    },
+    "properties": {
+    "HID":1206,
+    "Type":"総合事業",
+    "SubType":"通所型サービスＡ",
+    "Name":"デイサービスセンター恵翔苑",
+    "Organization":"",
+    "TEL":"053-595-1112",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町中之郷3636番地21",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
+    "business_hours":"9時20分〜16時30分",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.576253,34.686138 ]
+    },
+    "properties": {
+    "HID":1207,
+    "Type":"総合事業",
+    "SubType":"通所型サービスＡ",
+    "Name":"あらいデイサービスセンター",
+    "Organization":"",
+    "TEL":"053-594-7762",
+    "Add1":"静岡県湖西市",
+    "Add2":"新居町新居1800番地の1",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278200049-00&PrefCd=22&VersionCd=006",
+    "Memo":"",
+    "business_hours":"09時00分〜16時15分",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.542466,34.709177 ]
+    },
+    "properties": {
+    "HID":1208,
+    "Type":"総合事業",
+    "SubType":"通所型サービスＡ",
+    "Name":"おうちで暮らすサポートセンター",
+    "Organization":"",
+    "TEL":"053-548-4598",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津3387アルカミーノ２階",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
   }
 ]
 }
