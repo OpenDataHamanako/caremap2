@@ -5,20 +5,20 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.532128,34.719213 ]
+       "coordinates":  [ 137.56065,34.68713 ]
     },
     "properties": {
     "HID":1000,
     "Type":"福祉施設",
     "SubType":"訪問介護",
-    "Name":"湖西市社協介護センターこさい",
+    "Name":"湖西市社協介護センターあらい",
     "Organization":"",
-    "TEL":"053-575-3294",
-    "Add1":"静岡県湖西市",
-    "Add2":"古見１０４４番地",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=001",
+    "TEL":"053-594-5000",
+    "Add1":"静岡県新居町浜名575",
+    "Add2":"",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400219-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時30分〜17時15分",
+    "business_hours":"8時30分～17時15分",
     "regular_holiday":""
     }
   },
@@ -39,7 +39,7 @@
     "Add2":"吉美3270-5",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400151-00&PrefCd=22&VersionCd=001",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -60,7 +60,7 @@
     "Add2":"新所838番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400185-00&PrefCd=22&VersionCd=001",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -68,20 +68,20 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.532128,34.719213 ]
+       "coordinates":  [ 137.56065,34.68713 ]
     },
     "properties": {
     "HID":1004,
     "Type":"福祉施設",
     "SubType":"訪問入浴",
-    "Name":"湖西市社協介護センターこさい",
+    "Name":"湖西市社協介護センターあらい",
     "Organization":"",
-    "TEL":"053-575-3294",
-    "Add1":"静岡県湖西市",
-    "Add2":"古見1044番地",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=001",
+    "TEL":"053-594-5000",
+    "Add1":"静岡県新居町浜名575",
+    "Add2":"",
+    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400219-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"08時30分〜17時15分",
+    "business_hours":"08時30分～17時15分",
     "regular_holiday":""
     }
   },
@@ -102,7 +102,7 @@
     "Add2":"新所岡崎梅田入会地15番地70",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_004_kani=true&JigyosyoCd=2268490014-00&PrefCd=22&VersionCd=004",
     "Memo":"",
-    "business_hours":"8時45分〜18時15分",
+    "business_hours":"8時45分～18時15分",
     "regular_holiday":""
     }
   },
@@ -123,7 +123,7 @@
     "Add2":"古見1044",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_004_kani=true&JigyosyoCd=2268490022-00&PrefCd=22&VersionCd=004",
     "Memo":"",
-    "business_hours":"8時30分〜17時15分",
+    "business_hours":"8時30分～17時15分",
     "regular_holiday":""
     }
   },
@@ -144,7 +144,7 @@
     "Add2":"新居町新居1800番地の1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278200049-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"09時00分〜16時15分",
+    "business_hours":"09時00分～16時15分",
     "regular_holiday":""
     }
   },
@@ -165,7 +165,7 @@
     "Add2":"新居町新居117-3",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278200163-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -186,7 +186,7 @@
     "Add2":"新居町新居字新弁天3394-4",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278200189-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -207,7 +207,7 @@
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"8時15分〜17時15分",
+    "business_hours":"8時15分～17時15分",
     "regular_holiday":""
     }
   },
@@ -228,7 +228,7 @@
     "Add2":"岡崎１７０８番地の４",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400052-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -249,7 +249,7 @@
     "Add2":"白須賀3986-7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400094-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"8時00分〜18時00分",
+    "business_hours":"8時00分～18時00分",
     "regular_holiday":""
     }
   },
@@ -270,7 +270,7 @@
     "Add2":"太田450-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400136-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"9時15分〜16時30分",
+    "business_hours":"9時15分～16時30分",
     "regular_holiday":""
     }
   },
@@ -291,7 +291,7 @@
     "Add2":"岡崎2254-2",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400144-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"8時00分〜17時45分",
+    "business_hours":"8時00分～17時45分",
     "regular_holiday":""
     }
   },
@@ -312,7 +312,7 @@
     "Add2":"新居町浜名575番",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400219-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"8時30分〜17時15分",
+    "business_hours":"8時30分～17時15分",
     "regular_holiday":""
     }
   },
@@ -333,7 +333,7 @@
     "Add2":"新居町中之郷3636番地21",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"9時20分〜16時30分",
+    "business_hours":"9時20分～16時30分",
     "regular_holiday":""
     }
   },
@@ -354,7 +354,7 @@
     "Add2":"鷲津2688番1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400318-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"09時00分〜17時00分",
+    "business_hours":"09時00分～17時00分",
     "regular_holiday":""
     }
   },
@@ -375,7 +375,7 @@
     "Add2":"新所岡崎梅田入会地15-70",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_009_kani=true&JigyosyoCd=2218410112-00&PrefCd=22&VersionCd=009",
     "Memo":"",
-    "business_hours":"8時30分〜18時00分",
+    "business_hours":"8時30分～18時00分",
     "regular_holiday":""
     }
   },
@@ -396,7 +396,7 @@
     "Add2":"岡崎１３５３−１",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_009_kani=true&JigyosyoCd=2258480017-00&PrefCd=22&VersionCd=009",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -417,7 +417,7 @@
     "Add2":"新居町浜名８２８",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_019_kani=true&JigyosyoCd=2278200114-00&PrefCd=22&VersionCd=019",
     "Memo":"",
-    "business_hours":"9時00分〜17時00分",
+    "business_hours":"9時00分～17時00分",
     "regular_holiday":""
     }
   },
@@ -438,7 +438,7 @@
     "Add2":"神座４１１−２",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_020_kani=true&JigyosyoCd=2278400243-00&PrefCd=22&VersionCd=020",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -459,7 +459,7 @@
     "Add2":"鷲津1191番地1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_019_kani=true&JigyosyoCd=2278400292-00&PrefCd=22&VersionCd=019",
     "Memo":"",
-    "business_hours":"9時00分〜18時00分",
+    "business_hours":"9時00分～18時00分",
     "regular_holiday":""
     }
   },
@@ -690,7 +690,7 @@
     "Add2":"新居町新居898－7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2016_020_kani=true&JigyosyoCd=2278200171-00&PrefCd=22&VersionCd=020",
     "Memo":"",
-    "business_hours":"8時00分〜17時30分",
+    "business_hours":"8時00分～17時30分",
     "regular_holiday":""
     }
   },
@@ -711,7 +711,7 @@
     "Add2":"新所岡崎梅田入会地字藤ヶ池１５番70",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2218410112-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"9時00分〜18時00分",
+    "business_hours":"9時00分～18時00分",
     "regular_holiday":""
     }
   },
@@ -732,7 +732,7 @@
     "Add2":"新居町新居1800番地の1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278200049-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -753,7 +753,7 @@
     "Add2":"新居町新居117-3",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278200163-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -774,7 +774,7 @@
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -795,7 +795,7 @@
     "Add2":"古見1044番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時30分〜17時15分",
+    "business_hours":"8時30分～17時15分",
     "regular_holiday":""
     }
   },
@@ -816,28 +816,7 @@
     "Add2":"太田450-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400136-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.56065,34.68713 ]
-    },
-    "properties": {
-    "HID":1042,
-    "Type":"福祉施設",
-    "SubType":"居宅介護支援",
-    "Name":"湖西市社協介護センターあらい",
-    "Organization":"",
-    "TEL":"053-594-5000",
-    "Add1":"静岡県湖西市",
-    "Add2":"新居町浜名575",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400219-00&PrefCd=22&VersionCd=023",
-    "Memo":"",
-    "business_hours":"8時30分〜17時15分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -858,7 +837,7 @@
     "Add2":"新居町中之郷3636番地21",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2016_023_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時45分〜17時45分",
+    "business_hours":"8時45分～17時45分",
     "regular_holiday":""
     }
   },
@@ -1034,27 +1013,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.483885,34.72997 ]
-    },
-    "properties": {
-    "HID":1052,
-    "Type":"福祉施設",
-    "SubType":"地域密着型通所介護",
-    "Name":"浜名デイサービスセンターなでしこ",
-    "Organization":"",
-    "TEL":"053-577-1105",
-    "Add1":"静岡県湖西市",
-    "Add2":"梅田490番地1",
-    "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400061-00&PrefCd=22&VersionCd=033",
-    "Memo":"",
-    "business_hours":"8時30分〜17時45分",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.545711,34.713322 ]
     },
     "properties": {
@@ -1068,7 +1026,7 @@
     "Add2":"鷲津１０９５−１３",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400169-00&PrefCd=22&VersionCd=033",
     "Memo":"",
-    "business_hours":"9時25分〜16時30分",
+    "business_hours":"9時25分～16時30分",
     "regular_holiday":""
     }
   },
@@ -1089,7 +1047,7 @@
     "Add2":"新居町中之郷92－7",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400235-00&PrefCd=22&VersionCd=033",
     "Memo":"",
-    "business_hours":"09時00分〜17時00分",
+    "business_hours":"09時00分～17時00分",
     "regular_holiday":""
     }
   },
@@ -1110,7 +1068,7 @@
     "Add2":"新居町新居3379-11",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400250-00&PrefCd=22&VersionCd=033",
     "Memo":"",
-    "business_hours":"8時45分〜17時00分",
+    "business_hours":"8時45分～17時00分",
     "regular_holiday":""
     }
   },
@@ -1131,7 +1089,7 @@
     "Add2":"新居町新居字新弁天3394-4",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2016_033_kani=true&JigyosyoCd=2278400300-00&PrefCd=22&VersionCd=033",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -1152,7 +1110,7 @@
     "Add2":"古見124-4",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400326-00&PrefCd=22&VersionCd=033",
     "Memo":"",
-    "business_hours":"10時15分〜15時30分",
+    "business_hours":"10時15分～15時30分",
     "regular_holiday":""
     }
   },
@@ -1173,7 +1131,7 @@
     "Add2":"新居町新居896-69",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_033_kani=true&JigyosyoCd=2278400334-00&PrefCd=22&VersionCd=033",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -1343,27 +1301,6 @@
     "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.49044,34.71897 ]
-    },
-    "properties": {
-    "HID":1071,
-    "Type":"医院",
-    "SubType":"内科、外科、皮膚科、\n消化器科、こう門科、\nリハビリテーション科",
-    "Name":"なかむらクリニック",
-    "Organization":"",
-    "TEL":"053-577-5554",
-    "Add1":"静岡県湖西市",
-    "Add2":"駅南１丁目５-６",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12904&kinouid=fk9102",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":"日曜日・祝日"
     }
   },
   {
@@ -1748,27 +1685,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.5586657,34.6914142 ]
-    },
-    "properties": {
-    "HID":1090,
-    "Type":"歯科医院",
-    "SubType":"歯科 ",
-    "Name":"あさくら歯科医院",
-    "Organization":"",
-    "TEL":"053-594-7500",
-    "Add1":"静岡県湖西市",
-    "Add2":"新居町新居1602",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14436&kinouid=fk9102",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":"日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.4919066,34.7183642 ]
     },
     "properties": {
@@ -1826,27 +1742,6 @@
     "Memo":"",
     "business_hours":"",
     "regular_holiday":"水曜日午後・土曜日午後・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.5434442,34.7130113 ]
-    },
-    "properties": {
-    "HID":1094,
-    "Type":"歯科医院",
-    "SubType":"歯科",
-    "Name":"湖西歯科",
-    "Organization":"",
-    "TEL":"053-575-0475",
-    "Add1":"静岡県湖西市",
-    "Add2":"鷲津７６０－２",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14438&kinouid=fk9102",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":"木曜日・土曜日午後・日曜日・祝日"
     }
   },
   {
@@ -2096,27 +1991,6 @@
     "Add1":"静岡県湖西市",
     "Add2":"新所原2-8-1",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14413&kinouid=fk9102",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":"木曜日・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.5148768,34.7414896 ]
-    },
-    "properties": {
-    "HID":1107,
-    "Type":"歯科医院",
-    "SubType":"歯科、矯正歯科、小児歯科",
-    "Name":"福井歯科医院",
-    "Organization":"",
-    "TEL":"053-578-2815",
-    "Add1":"静岡県湖西市",
-    "Add2":"大田字前田811-1",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1102.php?sisetuid=14430&kinouid=fk9102",
     "Memo":"",
     "business_hours":"",
     "regular_holiday":"木曜日・日曜日・祝日"
@@ -3924,7 +3798,7 @@
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_007_kani=true&JigyosyoCd=2278400011-00&PrefCd=22&VersionCd=007",
     "Memo":"",
-    "business_hours":"8時15分〜17時15分",
+    "business_hours":"8時15分～17時15分",
     "regular_holiday":""
     }
   },
@@ -4050,27 +3924,6 @@
     "Add2":"古見1034-7 サンライズヤマヤ103",
     "url":"",
     "Memo":"",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.487011,34.722431 ]
-    },
-    "properties": {
-    "HID":1185,
-    "Type":"地域の居場所",
-    "SubType":"",
-    "Name":"ふれんどサークル",
-    "Organization":"",
-    "TEL":"053-577-6230",
-    "Add1":"静岡県湖西市",
-    "Add2":"駅南2丁目4-1",
-    "url":"",
-    "Memo":"西部地域センター",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -4407,7 +4260,7 @@
     "Add2":"古見1044番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時30分〜17時15分",
+    "business_hours":"8時30分～17時15分",
     "regular_holiday":""
     }
   },
@@ -4428,7 +4281,7 @@
     "Add2":"新所838番地",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400185-00&PrefCd=22&VersionCd=001",
     "Memo":"",
-    "business_hours":"8時30分〜17時30分",
+    "business_hours":"8時30分～17時30分",
     "regular_holiday":""
     }
   },
@@ -4491,7 +4344,7 @@
     "Add2":"新居町浜名575",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400219-00&PrefCd=22&VersionCd=023",
     "Memo":"",
-    "business_hours":"8時30分〜17時15分",
+    "business_hours":"8時30分～17時15分",
     "regular_holiday":""
     }
   },
@@ -4512,7 +4365,7 @@
     "Add2":"新居町中之郷3636番地21",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278400276-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"9時20分〜16時30分",
+    "business_hours":"9時20分～16時30分",
     "regular_holiday":""
     }
   },
@@ -4533,7 +4386,7 @@
     "Add2":"新居町新居1800番地の1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_006_kani=true&JigyosyoCd=2278200049-00&PrefCd=22&VersionCd=006",
     "Memo":"",
-    "business_hours":"09時00分〜16時15分",
+    "business_hours":"09時00分～16時15分",
     "regular_holiday":""
     }
   },
@@ -4552,6 +4405,48 @@
     "TEL":"053-548-4598",
     "Add1":"静岡県湖西市",
     "Add2":"鷲津3387アルカミーノ２階",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.553854,34.716564 ]
+    },
+    "properties": {
+    "HID":1209,
+    "Type":"福祉施設",
+    "SubType":"居宅介護支援",
+    "Name":"ケアプランかなめ",
+    "Organization":"",
+    "TEL":"053-574-2022",
+    "Add1":"静岡県湖西市鷲津2966",
+    "Add2":"",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.506678,34.722465 ]
+    },
+    "properties": {
+    "HID":1210,
+    "Type":"福祉施設",
+    "SubType":"短期入所生活介護",
+    "Name":"地域密着型特別養護老人ホ－ム　寿松園",
+    "Organization":"",
+    "TEL":"053-488-5311",
+    "Add1":"静岡県湖西市岡崎602-1",
+    "Add2":"",
     "url":"",
     "Memo":"",
     "business_hours":"",
