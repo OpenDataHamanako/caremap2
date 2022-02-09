@@ -469,6 +469,13 @@ Papamamap.prototype.getPopupContent = function(feature) {
         content += '<td>' + subtype + '</td>';
         content += '</tr>';
     }
+    var etc = feature.get('Etc') ? feature.get('Etc') : feature.get('Etc');
+    if (etc !== undefined && etc !== null && etc !== '') {
+        content += '<tr>';
+        content += '<th>その他</th>';
+        content += '<td>' + etc + '</td>';
+        content += '</tr>';
+    }
     var tel = feature.get('TEL') ? feature.get('TEL') : feature.get('TEL');
     if (tel !== undefined && tel !== null && tel !== '') {
         content += '<tr>';
