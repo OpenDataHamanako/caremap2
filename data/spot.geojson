@@ -390,7 +390,7 @@
     "Etc":"",
     "TEL":"053-572-3911",
     "Add1":"静岡県湖西市",
-    "Add2":"岡崎１３５３−１",
+    "Add2":"岡崎1353-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_009_kani=true&JigyosyoCd=2258480017-00&PrefCd=22&VersionCd=009",
     "Memo":"",
     "business_hours":"8時30分～17時30分",
@@ -412,7 +412,7 @@
     "Etc":"",
     "TEL":"053-595-1630",
     "Add1":"静岡県湖西市",
-    "Add2":"新居町浜名８２８",
+    "Add2":"新居町浜名828",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_019_kani=true&JigyosyoCd=2278200114-00&PrefCd=22&VersionCd=019",
     "Memo":"",
     "business_hours":"9時00分～17時00分",
@@ -434,7 +434,7 @@
     "Etc":"",
     "TEL":"053-578-0298",
     "Add1":"静岡県湖西市",
-    "Add2":"神座４１１−２",
+    "Add2":"神座411-2",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_020_kani=true&JigyosyoCd=2278400243-00&PrefCd=22&VersionCd=020",
     "Memo":"",
     "business_hours":"8時30分～17時30分",
@@ -808,7 +808,7 @@
     "Etc":"",
     "TEL":"053-575-3294",
     "Add1":"静岡県湖西市",
-    "Add2":"吉美3257コサイグリーンビル2階G",
+    "Add2":"吉美3257　コサイグリーンビル2階G",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
     "Memo":"",
     "business_hours":"8時30分～17時15分",
@@ -2150,7 +2150,7 @@
     "Etc":"",
     "TEL":"053-574-2650",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津780　さかえ薬局",
+    "Add2":"鷲津780",
     "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20983&kinouid=fk9104",
     "Memo":"",
     "business_hours":"",
@@ -3448,9 +3448,9 @@
     "Etc":"",
     "TEL":"053-573-2254",
     "Add1":"静岡県湖西市",
-    "Add2":"岡崎2254-2 日ノ岡デイサービス",
+    "Add2":"岡崎2254-2",
     "url":"",
-    "Memo":"",
+    "Memo":"日ノ岡デイサービス",
     "business_hours":"",
     "regular_holiday":"奇数月第3日曜日 参加料：100円～500円"
     }
@@ -3470,9 +3470,9 @@
     "Etc":"",
     "TEL":"053-579-3902",
     "Add1":"静岡県湖西市",
-    "Add2":"白須賀3986-7 一円荘　白須賀",
+    "Add2":"白須賀3986-7",
     "url":"",
-    "Memo":"",
+    "Memo":"一円荘　白須賀",
     "business_hours":"9時30分～11時",
     "regular_holiday":"偶数月第2水曜日（休止中） 参加料：100円"
     }
@@ -3492,9 +3492,9 @@
     "Etc":"",
     "TEL":"053-594-7474",
     "Add1":"静岡県湖西市",
-    "Add2":"新居町新居1800-1 あらいデイサービスセンター",
+    "Add2":"新居町新居1800-1",
     "url":"",
-    "Memo":"",
+    "Memo":"あらいデイサービスセンター",
     "business_hours":"",
     "regular_holiday":"3回／年 不定期開催"
     }
@@ -4284,9 +4284,9 @@
     "Etc":"",
     "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
-    "Add2":"古見1044番地 （健康福祉センターおぼと内）",
+    "Add2":"古見1044番地",
     "url":"",
-    "Memo":"",
+    "Memo":"健康福祉センターおぼと内",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -4328,7 +4328,7 @@
     "Etc":"",
     "TEL":"053-575-3294",
     "Add1":"静岡県湖西市",
-    "Add2":"吉美3257コサイグリーンビル2階G",
+    "Add2":"吉美3257　コサイグリーンビル2階G",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
     "Memo":"",
     "business_hours":"8時30分～17時15分",
@@ -4372,9 +4372,9 @@
     "Etc":"",
     "TEL":"070-6580-3292",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津3387アルカミーノ2階",
+    "Add2":"鷲津3387",
     "url":"",
-    "Memo":"",
+    "Memo":"アルカミーノ2階",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -4482,9 +4482,9 @@
     "Etc":"",
     "TEL":"053-548-4598",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津3387アルカミーノ2階",
+    "Add2":"鷲津3387",
     "url":"",
-    "Memo":"",
+    "Memo":"アルカミーノ2階",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -4548,9 +4548,9 @@
     "Etc":"",
     "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
-    "Add2":"新居1190-3　小松楼まちづくり交流館",
+    "Add2":"新居1190-3",
     "url":"",
-    "Memo":"",
+    "Memo":"小松楼まちづくり交流館",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -4570,9 +4570,9 @@
     "Etc":"",
     "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
-    "Add2":"吉美2798-1　川尻公会堂",
+    "Add2":"吉美2798-1",
     "url":"",
-    "Memo":"",
+    "Memo":"川尻公会堂",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -4592,9 +4592,9 @@
     "Etc":"",
     "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
-    "Add2":"新居町内山1925-16　源太山公民館",
+    "Add2":"新居町内山1925-16",
     "url":"",
-    "Memo":"",
+    "Memo":"源太山公民館",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -4724,7 +4724,7 @@
     "Etc":"",
     "TEL":"053-482-8622",
     "Add1":"静岡県湖西市",
-    "Add2":"新居町新居205-9コーポレジエA201",
+    "Add2":"新居町新居205-9　コーポレジエA201",
     "url":"",
     "Memo":"",
     "business_hours":"",
