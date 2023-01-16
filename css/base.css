@@ -34,6 +34,14 @@ div#popup-title {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+#lblDrugStore.ui-checkbox-on {
+    background-color: #CC66CC;
+}
+
+#lblSalon.ui-checkbox-on {
+    background-color: #AA0000;
+}
+
 #lblKaigo.ui-checkbox-on {
     background-color: #6EE100;
 }
@@ -46,16 +54,12 @@ div#popup-title {
     background-color: #FF5C24;
 }
 
-#lblJichikai.ui-checkbox-on {
-    background-color: #7379AE;
+#lblDementia.ui-checkbox-on {
+    background-color: #6699FF;
 }
 
 #lblHospital.ui-checkbox-on {
     background-color: #1BA466;
-}
-
-#lblSalon.ui-checkbox-on {
-    background-color: #AA0000;
 }
 
 .ol-popup {
