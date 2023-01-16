@@ -5,13 +5,14 @@
 var featureStyleList = {
     'default': { color: 'rgba(153, 153, 153, 1)', img: 'image/018.png' },
     '地域の居場所': { color: '#0362A0', img: 'image/019.png' },
-    '歯科医院': { color: '#FF5C24', img: 'image/dentist.png' },
-    '福祉施設': { color: '#6EE100', img: 'image/018.png' },
-    '総合事業': { color: '#AA0000', img: 'image/018.png' },
-    '医院': { color: '#6EE1FF', img: 'image/hospital.png' },
     'いきいきサロン': { color: '#AA0000', img: 'image/019.png' },
-    '薬局': { color: '#00AA00', img: 'image/drugstore.png' },
-    '社会資源': { color: '#000066', img: 'image/029.png' }
+    '薬局': { color: '#CC66CC', img: 'image/drugstore.png' },
+    '社会資源': { color: '#000066', img: 'image/029.png' },
+    '総合事業': { color: '#AA0000', img: 'image/018.png' },
+    '福祉施設': { color: '#6EE100', img: 'image/018.png' },
+    '認知症研修受講医院': { color: '#6699FF', img: 'image/hospital.png' },
+    '歯科医院': { color: '#FF5C24', img: 'image/dentist.png' },
+    '医療機関': { color: '#1BA466', img: 'image/hospital.png' }
 };
 
 /**
@@ -87,6 +88,7 @@ var ibashoStyleFunction = function(feature, resolution) {
 var dentalStyleFunction = function(feature, resolution) {
     var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
     var style = [];
+    //console.log("DentalStyleFunc");
     if (facilityTypeName === "歯科医院") {
         featureStyle = featureStyleList[facilityTypeName];
         style = nurseryStyleFunction(feature, resolution, featureStyle);
@@ -95,7 +97,7 @@ var dentalStyleFunction = function(feature, resolution) {
 };
 
 /**
- * 医院向けスタイル
+ * 医療機関向けスタイル
  * @param  {[type]} feature    [description]
  * @param  {[type]} resolution [description]
  * @return {[type]}            [description]
@@ -103,7 +105,26 @@ var dentalStyleFunction = function(feature, resolution) {
 var hospitalStyleFunction = function(feature, resolution) {
     var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
     var style = [];
-    if (facilityTypeName === "医院") {
+    //console.log("HospitalStyleFunc");
+    if (facilityTypeName === "医療機関") {
+    	//console.log("HospitalStyleFunc2");
+        featureStyle = featureStyleList[facilityTypeName];
+        style = nurseryStyleFunction(feature, resolution, featureStyle);
+    }
+    return style;
+};
+/**
+ * 認知症研修受講医院向けスタイル
+ * @param  {[type]} feature    [description]
+ * @param  {[type]} resolution [description]
+ * @return {[type]}            [description]
+ */
+var dementiaStyleFunction = function(feature, resolution) {
+    var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
+    var style = [];
+    //console.log("DementiaStyleFunc");
+    if (facilityTypeName === "認知症研修受講医院") {
+    	//console.log("DementiaStyleFunc2");
         featureStyle = featureStyleList[facilityTypeName];
         style = nurseryStyleFunction(feature, resolution, featureStyle);
     }
@@ -118,6 +139,7 @@ var hospitalStyleFunction = function(feature, resolution) {
 var salonStyleFunction = function(feature, resolution) {
     var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
     var style = [];
+    //console.log("SalonStyleFunc");
     if (facilityTypeName === "いきいきサロン") {
         featureStyle = featureStyleList[facilityTypeName];
         style = nurseryStyleFunction(feature, resolution, featureStyle);

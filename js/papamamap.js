@@ -147,7 +147,7 @@ Papamamap.prototype.addNurseryFacilitiesLayer = function(facilitiesData) {
             style: dentalStyleFunction
         })
     );
-    // 医院
+    // 医療機関
     this.map.addLayer(
         new ol.layer.Vector({
             source: new ol.source.GeoJSON({
@@ -156,6 +156,17 @@ Papamamap.prototype.addNurseryFacilitiesLayer = function(facilitiesData) {
             }),
             name: 'layerHospital',
             style: hospitalStyleFunction
+        })
+    );
+    // 認知症医療
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerDementia',
+            style: dementiaStyleFunction
         })
     );
     // いきいきサロン
@@ -254,7 +265,7 @@ Papamamap.prototype.delNurseryFacilitiesLayer = function(facilitiesData) {
             visible: false
         })
     );
-    // 医院
+    // 医療機関
     this.map.addLayer(
         new ol.layer.Vector({
             source: new ol.source.GeoJSON({
@@ -263,6 +274,18 @@ Papamamap.prototype.delNurseryFacilitiesLayer = function(facilitiesData) {
             }),
             name: 'layerHospital',
             style: hospitalStyleFunction,
+            visible: false
+        })
+    );
+    // 認知症医療
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerDementia',
+            style: dementiaStyleFunction,
             visible: false
         })
     );
@@ -461,7 +484,7 @@ Papamamap.prototype.getPopupContent = function(feature) {
     var subtype = feature.get('SubType');
     if (subtype !== undefined && subtype !== null && subtype !== '') {
         content += '<tr>';
-        if (feature.get('Type') == '医院' || feature.get('Type') == '歯科医院'){
+        if (feature.get('Type') == '医療機関' || feature.get('Type') == '歯科医院'){
             content += '<th>診療科目</th>';
         } else {
             content += '<th>サービス</th>';
@@ -510,7 +533,7 @@ Papamamap.prototype.getPopupContent = function(feature) {
     var regular_holiday = feature.get('regular_holiday');
     if (regular_holiday !== null && regular_holiday != '') {
         content += '<tr>';
-        if (feature.get('Type') == '医院' || feature.get('Type') == '歯科医院'){
+        if (feature.get('Type') == '医療機関' || feature.get('Type') == '歯科医院'){
             content += '<th>休診</th>';
         } else {
         	if (feature.get('SubType') == '認知症カフェ'){
