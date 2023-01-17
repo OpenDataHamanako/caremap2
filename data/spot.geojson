@@ -3833,6 +3833,28 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ 137.557107,34.711819 ]
+    },
+    "properties": {
+    "HID":1177,
+    "Type":"福祉施設",
+    "SubType":"地域密着型通所介護",
+    "Name":"でいの楽園",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"053-574-2687",
+    "Add1":"静岡県湖西市",
+    "Add2":"鷲津分川3085",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ 137.501267,34.71584 ]
     },
     "properties": {
