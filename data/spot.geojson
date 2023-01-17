@@ -3833,7 +3833,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.557107,34.711819 ]
+       "coordinates":  [ 137.557203,34.711885 ]
     },
     "properties": {
     "HID":1177,
@@ -4691,7 +4691,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.556999,34.711898 ]
+       "coordinates":  [ 137.556876,34.711933 ]
     },
     "properties": {
     "HID":1217,
