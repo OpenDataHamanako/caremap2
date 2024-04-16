@@ -2469,18 +2469,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.548708,34.718722 ]
+       "coordinates":  [ 137.546073,34.710722 ]
     },
     "properties": {
     "HID":1132,
     "Type":"一般介護予防",
     "SubType":"居場所",
-    "Name":"おしゃべり処三河屋",
+    "Name":"おしゃべり処表鷲津（表鷲津コミュニティ防災センター）",
     "Organization":"",
     "Etc":"",
     "TEL":"053-594-5511",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津1459-1",
+    "Add2":"鷲津1163-2",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -2541,7 +2541,7 @@
     "HID":1137,
     "Type":"一般介護予防",
     "SubType":"居場所",
-    "Name":"寄ってこ会",
+    "Name":"古見寄ってこ会",
     "Organization":"",
     "Etc":"",
     "TEL":"053-594-5511",
@@ -2613,28 +2613,6 @@
     "TEL":"",
     "Add1":"静岡県湖西市",
     "Add2":"鷲津1163-2",
-    "url":"",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.539836,34.722299 ]
-    },
-    "properties": {
-    "HID":1117,
-    "Type":"一般介護予防",
-    "SubType":"いきいきサロン",
-    "Name":"河原公会堂",
-    "Organization":"河美地区福祉会",
-    "Etc":"河美地区福祉会",
-    "TEL":"",
-    "Add1":"静岡県湖西市",
-    "Add2":"鷲津194-19",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -2762,8 +2740,8 @@
     "Type":"一般介護予防",
     "SubType":"いきいきサロン",
     "Name":"宮本集落センター",
-    "Organization":"白須賀地区福祉会２区支部",
-    "Etc":"白須賀地区福祉会２区支部",
+    "Organization":"",
+    "Etc":"",
     "TEL":"",
     "Add1":"静岡県湖西市",
     "Add2":"白須賀449",
@@ -2871,7 +2849,7 @@
     "HID":1132,
     "Type":"一般介護予防",
     "SubType":"いきいきサロン",
-    "Name":"南上の原集会所",
+    "Name":"きずな館",
     "Organization":"岡崎地区福祉会上の原支部",
     "Etc":"岡崎地区福祉会上の原支部",
     "TEL":"",
@@ -2909,18 +2887,18 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.48434,34.733965 ]
+       "coordinates":  [ 137.556656,34.713612 ]
     },
     "properties": {
     "HID":1135,
     "Type":"一般介護予防",
     "SubType":"いきいきサロン",
-    "Name":"微笑保育園世代間交流室",
-    "Organization":"岡崎地区福祉会梅田支部",
-    "Etc":"岡崎地区福祉会梅田支部",
+    "Name":"表鷲津多目的ホール",
+    "Organization":"",
+    "Etc":"",
     "TEL":"",
     "Add1":"静岡県湖西市",
-    "Add2":"梅田128-3",
+    "Add2":"鷲津3084",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -4015,7 +3993,7 @@
     "HID":1192,
     "Type":"一般介護予防",
     "SubType":"居場所",
-    "Name":"しあわせカフェ　日和",
+    "Name":"しあわせカフェ日和",
     "Organization":"",
     "Etc":"",
     "TEL":"053-594-5511",
@@ -4427,35 +4405,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.525432,34.717418 ]
-    },
-    "properties": {
-    "HID":1212,
-    "Type":"一般介護予防",
-    "SubType":"居場所",
-    "Name":"ひろば陽だまり",
-    "Organization":"",
-    "Etc":"",
-    "TEL":"053-594-5511",
-    "Add1":"静岡県湖西市",
-    "Add2":"吉美2798-1",
-    "url":"",
-    "Memo":"川尻公会堂",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.563498,34.691423 ]
     },
     "properties": {
     "HID":1213,
     "Type":"一般介護予防",
     "SubType":"居場所",
-    "Name":"おいでんサロン",
+    "Name":"ゆるり体操",
     "Organization":"",
     "Etc":"",
     "TEL":"053-594-5511",
@@ -4851,7 +4807,7 @@
     "HID":1231,
     "Type":"一般介護予防",
     "SubType":"健康体操",
-    "Name":"表鷲津防災センター（表鷲津）",
+    "Name":"表鷲津コミュニティ防災センター",
     "Organization":"",
     "Etc":"",
     "TEL":"",
@@ -5098,7 +5054,7 @@
     "Etc":"",
     "TEL":"",
     "Add1":"静岡県湖西市",
-    "Add2":"岡崎1760",
+    "Add2":"岡崎1706",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -7343,6 +7299,182 @@
     "TEL":"053-543-7715",
     "Add1":"静岡県湖西市",
     "Add2":"岡崎604-16",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.497498,34.723994 ]
+    },
+    "properties": {
+    "HID":1345,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"上ノ原公会堂",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"岡崎710-1",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.498608,34.709552 ]
+    },
+    "properties": {
+    "HID":1346,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"東伝馬自治会館・南笠子集会所",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"白須賀3985-742",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.528963,34.681994 ]
+    },
+    "properties": {
+    "HID":1347,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"１区公会堂（白須賀）",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"白須賀141",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.514866,34.743476 ]
+    },
+    "properties": {
+    "HID":1348,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"太田公民館",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"太田210-3",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.536972,34.766694 ]
+    },
+    "properties": {
+    "HID":1349,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"横山会館",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"横山112-8",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.520086,34.713506 ]
+    },
+    "properties": {
+    "HID":1350,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"市場公会堂（市場）",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"吉美1570-3",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.525432,34.717418 ]
+    },
+    "properties": {
+    "HID":1351,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"川尻公会堂（川尻）",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"吉美2798-1",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.501922,34.72844 ]
+    },
+    "properties": {
+    "HID":1352,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"岡崎公会堂（岡崎）",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"岡崎1706",
     "url":"",
     "Memo":"",
     "business_hours":"",
