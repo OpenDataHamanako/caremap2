@@ -176,6 +176,18 @@ $('#mainPage').on('pageshow', function() {
         papamamap.switchLayer(this.id, $(this).prop('checked'));
     });
 
+    // 一般介護予防チェックボックスのイベント設定
+    $('#cbCareprev').click(function() {
+        //console.log("CareprevClick");
+        papamamap.switchLayer(this.id, $(this).prop('checked'));
+    });
+
+    // 認知症関連チェックボックスのイベント設定
+    $('#cbCognition').click(function() {
+        //console.log("CognitionClick");
+        papamamap.switchLayer(this.id, $(this).prop('checked'));
+    });
+
     // 地域の居場所チェックボックスのイベント設定
     $('#cbIbasho').click(function() {
         //console.log("IbashoClick");
@@ -213,13 +225,18 @@ $('#mainPage').on('pageshow', function() {
         papamamap.switchLayer(this.id, $(this).prop('checked'));
     });
 
+    // 地域包括支援センターチェックボックスのイベント定義
+    $('#cbHoukatsu').click(function() {
+        //console.log("HoukatsuClick");
+        papamamap.switchLayer(this.id, $(this).prop('checked'));
+    });
+
     // 現在地に移動するボタンのイベント定義
     $('#moveCurrentLocation').click(function(evt) {
         control = new MoveCurrentLocationControl();
         control.getCurrentPosition(
             function(pos) {
-                var coordinate = ol.proj.transform(
-                    [pos.coords.longitude, pos.coords.latitude], 'EPSG:4326', 'EPSG:3857');
+                var coordinate = ol.proj.transform([pos.coords.longitude, pos.coords.latitude], 'EPSG:4326', 'EPSG:3857');
                 view = map.getView();
                 view.setCenter(coordinate);
                 drawMarker(coordinate, "現在地");
@@ -284,7 +301,7 @@ $('#mainPage').on('pageshow', function() {
     $('#filterApply').click(function(evt) {
         // 条件作成処理
         conditions = [];
-        welfare = ibasho = dental = salon = hospital = dementia = drugstore = society = overall = false;
+        welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = false;
         // 介護施設
         if ($('#subtype option:selected').val() !== "") {
             conditions['subtype'] = $('#subtype option:selected').val();
@@ -298,21 +315,25 @@ $('#mainPage').on('pageshow', function() {
             $('#btnFilter').css('background-color', '#3388cc');
             $('#btnFilter2').css('background-color', '#f6f6f6');
             $('#btnFilter3').css('background-color', '#f6f6f6');
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
         } else {
             papamamap.addNurseryFacilitiesLayer(nurseryFacilities);
             $('#btnFilter').css('background-color', '#f6f6f6');
             $('#btnFilter2').css('background-color', '#f6f6f6');
             $('#btnFilter3').css('background-color', '#f6f6f6');
-            welfare = ibasho = dental = salon = hospital = dementia = drugstore = society = overall = true;
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
+            welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu =society = overall = careprev = cognition = true;
         }
 
         // レイヤー表示状態によって施設の表示を切り替える
-        updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, dementia:dementia, drugstore: drugstore, society: society, overall:overall });
+        updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, dementia:dementia, drugstore: drugstore, houkatsu: houkatsu, society: society, overall: overall, careprev: careprev, cognition: cognition });
     });
     $('#filterApply2').click(function(evt) {
         // 条件作成処理
         conditions = [];
-        welfare = ibasho = dental = salon = hospital = dementia = drugstore = society = overall = false;
+        welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = false;
         // 社会資源
         if ($('#subtype2 option:selected').val() !== "") {
             conditions['subtype2'] = $('#subtype2 option:selected').val();
@@ -326,21 +347,25 @@ $('#mainPage').on('pageshow', function() {
             $('#btnFilter2').css('background-color', '#3388cc');
             $('#btnFilter').css('background-color', '#f6f6f6');
             $('#btnFilter3').css('background-color', '#f6f6f6');
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
         } else {
             papamamap.addNurseryFacilitiesLayer(nurseryFacilities);
             $('#btnFilter').css('background-color', '#f6f6f6');
             $('#btnFilter2').css('background-color', '#f6f6f6');
             $('#btnFilter3').css('background-color', '#f6f6f6');
-            welfare = ibasho = dental = salon = hospital = dementia = drugstore = society = overall = true;
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
+            welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = true;
         }
 
         // レイヤー表示状態によって施設の表示を切り替える
-        updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, dementia:dementia, drugstore: drugstore, society: society, overall:overall });
+        updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, dementia:dementia, drugstore: drugstore, houkatsu: houkatsu, society: society, overall: overall, careprev: careprev, cognition: cognition});
     });
     $('#filterApply3').click(function(evt) {
         // 条件作成処理
         conditions = [];
-        welfare = ibasho = dental = salon = hospital = dementia = drugstore = society = overall = false;
+        welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = false;
         // 総合事業
         if ($('#subtype3 option:selected').val() !== "") {
             conditions['subtype3'] = $('#subtype3 option:selected').val();
@@ -354,16 +379,84 @@ $('#mainPage').on('pageshow', function() {
             $('#btnFilter3').css('background-color', '#3388cc');
             $('#btnFilter').css('background-color', '#f6f6f6');
             $('#btnFilter2').css('background-color', '#f6f6f6');
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
         } else {
             papamamap.addNurseryFacilitiesLayer(nurseryFacilities);
             $('#btnFilter').css('background-color', '#f6f6f6');
             $('#btnFilter2').css('background-color', '#f6f6f6');
             $('#btnFilter3').css('background-color', '#f6f6f6');
-            welfare = ibasho = dental = salon = hospital = dementia = drugstore = society = overall = true;
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
+            welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = true;
         }
 
         // レイヤー表示状態によって施設の表示を切り替える
-        updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, dementia:dementia, drugstore: drugstore, society: society, overall:overall });
+        updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, dementia:dementia, drugstore: drugstore, houkatsu: houkatsu, society: society, overall: overall, careprev: careprev, cognition: cognition });
+    });
+    $('#filterApply4').click(function(evt) {
+        // 条件作成処理
+        conditions = [];
+        welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = false;
+        // 総合事業
+        if ($('#subtype4 option:selected').val() !== "") {
+            conditions['subtype4'] = $('#subtype4 option:selected').val();
+            overall = true;
+        }
+        // フィルター適用時
+        if (Object.keys(conditions).length > 0) {
+            filter = new FacilityFilter4();
+            newGeoJson = filter.getFilteredFeaturesGeoJson(conditions, nurseryFacilities);
+            papamamap.addNurseryFacilitiesLayer(newGeoJson);
+            $('#btnFilter4').css('background-color', '#3388cc');
+            $('#btnFilter').css('background-color', '#f6f6f6');
+            $('#btnFilter2').css('background-color', '#f6f6f6');
+            $('#btnFilter3').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
+        } else {
+            papamamap.addNurseryFacilitiesLayer(nurseryFacilities);
+            $('#btnFilter').css('background-color', '#f6f6f6');
+            $('#btnFilter2').css('background-color', '#f6f6f6');
+            $('#btnFilter3').css('background-color', '#f6f6f6');
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
+            welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = true;
+        }
+
+        // レイヤー表示状態によって施設の表示を切り替える
+        updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, dementia:dementia, drugstore: drugstore, houkatsu: houkatsu, society: society, overall: overall, careprev: careprev, cognition: cognition });
+    });
+    $('#filterApply5').click(function(evt) {
+        // 条件作成処理
+        conditions = [];
+        welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = false;
+        // 総合事業
+        if ($('#subtype5 option:selected').val() !== "") {
+            conditions['subtype5'] = $('#subtype5 option:selected').val();
+            overall = true;
+        }
+        // フィルター適用時
+        if (Object.keys(conditions).length > 0) {
+            filter = new FacilityFilter5();
+            newGeoJson = filter.getFilteredFeaturesGeoJson(conditions, nurseryFacilities);
+            papamamap.addNurseryFacilitiesLayer(newGeoJson);
+            $('#btnFilter5').css('background-color', '#3388cc');
+            $('#btnFilter').css('background-color', '#f6f6f6');
+            $('#btnFilter2').css('background-color', '#f6f6f6');
+            $('#btnFilter3').css('background-color', '#f6f6f6');
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+        } else {
+            papamamap.addNurseryFacilitiesLayer(nurseryFacilities);
+            $('#btnFilter').css('background-color', '#f6f6f6');
+            $('#btnFilter2').css('background-color', '#f6f6f6');
+            $('#btnFilter3').css('background-color', '#f6f6f6');
+            $('#btnFilter4').css('background-color', '#f6f6f6');
+            $('#btnFilter5').css('background-color', '#f6f6f6');
+            welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = true;
+        }
+
+        // レイヤー表示状態によって施設の表示を切り替える
+        updateLayerStatus({ welfare: welfare, ibasho: ibasho, dental: dental, salon: salon, hospital: hospital, dementia:dementia, drugstore: drugstore, houkatsu: houkatsu, society: society, overall: overall, careprev: careprev, cognition: cognition });
     });
 
     // 元の状態に戻る
@@ -382,9 +475,11 @@ $('#mainPage').on('pageshow', function() {
         $('#btnFilter').css('background-color', '#f6f6f6');
         $('#btnFilter2').css('background-color', '#f6f6f6');
         $('#btnFilter3').css('background-color', '#f6f6f6');
+        $('#btnFilter4').css('background-color', '#f6f6f6');
+        $('#btnFilter5').css('background-color', '#f6f6f6');
 
         // レイヤー表示状態によって施設の表示を切り替える
-        updateLayerStatus({ welfare: true, ibasho: true, dental: true, salon: true, hospital: true, dementia: true, drugstore: true, society: true, overall:true });
+        updateLayerStatus({ welfare: true, ibasho: true, dental: true, salon: true, hospital: true, dementia: true, drugstore: true, houkatsu: true, society: true, overall:true, careprev:true, cognition:true });
         
         clearCenterCircle();
         
@@ -405,9 +500,11 @@ $('#mainPage').on('pageshow', function() {
         $('#btnFilter').css('background-color', '#f6f6f6');
         $('#btnFilter2').css('background-color', '#f6f6f6');
         $('#btnFilter3').css('background-color', '#f6f6f6');
+        $('#btnFilter4').css('background-color', '#f6f6f6');
+        $('#btnFilter5').css('background-color', '#f6f6f6');
 
         // レイヤー表示状態によって施設の表示を切り替える
-        updateLayerStatus({ welfare: false, ibasho: false, dental: false, salon: false, hospital: false, dementia: false, drugstore: false, society: false, overall:false });
+        updateLayerStatus({ welfare: false, ibasho: false, dental: false, salon: false, hospital: false, dementia: false, drugstore: false, houkatsu: false, society: false, overall:false, careprev:false, cognition:false });
         
         clearCenterCircle();
         
@@ -428,9 +525,11 @@ $('#mainPage').on('pageshow', function() {
         $('#btnFilter').css('background-color', '#f6f6f6');
         $('#btnFilter2').css('background-color', '#f6f6f6');
         $('#btnFilter3').css('background-color', '#f6f6f6');
+        $('#btnFilter4').css('background-color', '#f6f6f6');
+        $('#btnFilter5').css('background-color', '#f6f6f6');
 
         // レイヤー表示状態によって施設の表示を切り替える
-        updateLayerStatus({ welfare: true, ibasho: true, dental: true, salon: true, hospital: true, dementia: true, drugstore: true, society: true, overall:true });
+        updateLayerStatus({ welfare: true, ibasho: true, dental: true, salon: true, hospital: true, dementia: true, drugstore: true, houkatsu: true, society: true, overall:true, careprev:true, cognition:true });
     });
     $('#filterReset2').click(function(evt) {
         // チェックボックスをリセット
@@ -447,9 +546,11 @@ $('#mainPage').on('pageshow', function() {
         $('#btnFilter').css('background-color', '#f6f6f6');
         $('#btnFilter2').css('background-color', '#f6f6f6');
         $('#btnFilter3').css('background-color', '#f6f6f6');
+        $('#btnFilter4').css('background-color', '#f6f6f6');
+        $('#btnFilter5').css('background-color', '#f6f6f6');
 
         // レイヤー表示状態によって施設の表示を切り替える
-        updateLayerStatus({ welfare: true, ibasho: true, dental: true, salon: true, hospital: true, dementia: true, drugstore: true, society: true, overall:true });
+        updateLayerStatus({ welfare: true, ibasho: true, dental: true, salon: true, hospital: true, dementia: true, drugstore: true, houkatsu: true, society: true, overall:true, careprev:true, cognition:true });
     });
 
     /**
@@ -459,24 +560,31 @@ $('#mainPage').on('pageshow', function() {
      * @return {[type]}               [description]
      */
     function updateLayerStatus(checkObj) {
-        //papamamap.switchLayer($('#cbWelfare').prop('id'), checkObj.welfare);
-        papamamap.switchLayer($('#cbIbasho').prop('id'), checkObj.ibasho);
         papamamap.switchLayer($('#cbDental').prop('id'), checkObj.dental);
         papamamap.switchLayer($('#cbHospital').prop('id'), checkObj.hospital);
-        papamamap.switchLayer($('#cbDementia').prop('id'), checkObj.dementia);
         papamamap.switchLayer($('#cbDrugStore').prop('id'), checkObj.drugstore);
+        papamamap.switchLayer($('#cbHoukatsu').prop('id'), checkObj.houkatsu);
+        papamamap.switchLayer($('#cbWelfare').prop('id'), checkObj.welfare);
+        papamamap.switchLayer($('#cbIbasho').prop('id'), checkObj.ibasho);
+        papamamap.switchLayer($('#cbDementia').prop('id'), checkObj.dementia);
         papamamap.switchLayer($('#cbSalon').prop('id'), checkObj.salon);
-        //papamamap.switchLayer($('#cbSociety').prop('id'), checkObj.society);
-        //papamamap.switchLayer($('#cbOverall').prop('id'), checkObj.overall);
-        //$('#cbWelfare').prop('checked', checkObj.welfare).checkboxradio('refresh');
-        $('#cbIbasho').prop('checked', checkObj.ibasho).checkboxradio('refresh');
+        papamamap.switchLayer($('#cbSociety').prop('id'), checkObj.society);
+        papamamap.switchLayer($('#cbOverall').prop('id'), checkObj.overall);
+        papamamap.switchLayer($('#cbCareprev').prop('id'), checkObj.careprev);
+        papamamap.switchLayer($('#cbCognition').prop('id'), checkObj.cognition);
+        
         $('#cbDental').prop('checked', checkObj.dental).checkboxradio('refresh');
         $('#cbHospital').prop('checked', checkObj.hospital).checkboxradio('refresh');
-        $('#cbDementia').prop('checked', checkObj.dementia).checkboxradio('refresh');
         $('#cbDrugStore').prop('checked', checkObj.drugstore).checkboxradio('refresh');
+        $('#cbHoukatsu').prop('checked', checkObj.houkatsu).checkboxradio('refresh');
+        $('#cbWelfare').prop('checked', checkObj.welfare).checkboxradio('refresh');
+        $('#cbIbasho').prop('checked', checkObj.ibasho).checkboxradio('refresh');
+        $('#cbDementia').prop('checked', checkObj.dementia).checkboxradio('refresh');
         $('#cbSalon').prop('checked', checkObj.salon).checkboxradio('refresh');
-        //$('#cbSociety').prop('checked', checkObj.society).checkboxradio('refresh');
-        //$('#cbOverall').prop('checked', checkObj.overall).checkboxradio('refresh');
+        $('#cbSociety').prop('checked', checkObj.society).checkboxradio('refresh');
+        $('#cbOverall').prop('checked', checkObj.overall).checkboxradio('refresh');
+        $('#cbCareprev').prop('checked', checkObj.careprev).checkboxradio('refresh');
+        $('#cbCognition').prop('checked', checkObj.cognition).checkboxradio('refresh');
     }
 
     /**

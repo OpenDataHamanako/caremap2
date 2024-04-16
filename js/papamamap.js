@@ -191,6 +191,17 @@ Papamamap.prototype.addNurseryFacilitiesLayer = function(facilitiesData) {
             style: drugstoreStyleFunction
         })
     );
+    // 地域包括支援センター
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerHoukatsu',
+            style: houkatsuStyleFunction
+        })
+    );
     // 社会資源
     this.map.addLayer(
         new ol.layer.Vector({
@@ -211,6 +222,28 @@ Papamamap.prototype.addNurseryFacilitiesLayer = function(facilitiesData) {
             }),
             name: 'layerOverall',
             style: overallStyleFunction
+        })
+    );
+    // 一般介護予防
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerCareprev',
+            style: careprevStyleFunction
+        })
+    );
+    // 認知症関連
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerCognition',
+            style: cognitionStyleFunction
         })
     );
 };
@@ -313,6 +346,18 @@ Papamamap.prototype.delNurseryFacilitiesLayer = function(facilitiesData) {
             visible: false
         })
     );
+    // 地域包括支援センター
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerHoukatsu',
+            style: houkatsuStyleFunction,
+            visible: false
+        })
+    );
     // 社会資源
     this.map.addLayer(
         new ol.layer.Vector({
@@ -337,6 +382,30 @@ Papamamap.prototype.delNurseryFacilitiesLayer = function(facilitiesData) {
             visible: false
         })
     );
+    // 一般介護予防
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerCareprev',
+            style: careprevStyleFunction,
+            visible: false
+        })
+    );
+    // 認知症関連
+    this.map.addLayer(
+        new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                projection: 'EPSG:3857',
+                object: facilitiesData
+            }),
+            name: 'layerCognition',
+            style: cognitionStyleFunction,
+            visible: false
+        })
+    );
 };
 
 /**
@@ -353,6 +422,7 @@ Papamamap.prototype.loadNurseryFacilitiesJson = function(successFunc) {
         }
     ).fail(function() {
         console.log('station data load failed.');
+        console.log(error.message);
         d.reject('load error.');
     });
     return d.promise();

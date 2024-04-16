@@ -9,14 +9,17 @@ var featureStyleList = {
     '薬局': { color: '#CC66CC', img: 'image/drugstore.png' },
     '社会資源': { color: '#000066', img: 'image/029.png' },
     '総合事業': { color: '#AA0000', img: 'image/018.png' },
+    '一般介護予防': { color: '#1BA466', img: 'image/018.png' },
+    '認知症関連': { color: '#FF5C24', img: 'image/hospital.png' },
     '福祉施設': { color: '#6EE100', img: 'image/018.png' },
     '認知症研修受講医院': { color: '#6699FF', img: 'image/hospital.png' },
+    '地域包括支援センター': { color: '#6699FF', img: 'image/hospital.png' },
     '歯科医院': { color: '#FF5C24', img: 'image/dentist.png' },
     '医療機関': { color: '#1BA466', img: 'image/hospital.png' }
 };
 
 /**
- * 認可保育所向けスタイル
+ * 総合事業向けスタイル
  * @param  {[type]} feature    [description]
  * @param  {[type]} resolution [description]
  * @return {[type]}            [description]
@@ -32,7 +35,39 @@ var overallStyleFunction = function(feature, resolution) {
 };
 
 /**
- * 認可保育所向けスタイル
+ * 一般介護予防向けスタイル
+ * @param  {[type]} feature    [description]
+ * @param  {[type]} resolution [description]
+ * @return {[type]}            [description]
+ */
+var careprevStyleFunction = function(feature, resolution) {
+    var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
+    var style = [];
+    if (facilityTypeName === "一般介護予防") {
+        featureStyle = featureStyleList[facilityTypeName];
+        style = nurseryStyleFunction(feature, resolution, featureStyle);
+    }
+    return style;
+};
+
+/**
+ * 認知症関連向けスタイル
+ * @param  {[type]} feature    [description]
+ * @param  {[type]} resolution [description]
+ * @return {[type]}            [description]
+ */
+var cognitionStyleFunction = function(feature, resolution) {
+    var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
+    var style = [];
+    if (facilityTypeName === "認知症関連") {
+        featureStyle = featureStyleList[facilityTypeName];
+        style = nurseryStyleFunction(feature, resolution, featureStyle);
+    }
+    return style;
+};
+
+/**
+ * 社会資源向けスタイル
  * @param  {[type]} feature    [description]
  * @param  {[type]} resolution [description]
  * @return {[type]}            [description]
@@ -48,7 +83,7 @@ var societyStyleFunction = function(feature, resolution) {
 };
 
 /**
- * 認可保育所向けスタイル
+ * 介護施設向けスタイル
  * @param  {[type]} feature    [description]
  * @param  {[type]} resolution [description]
  * @return {[type]}            [description]
@@ -64,7 +99,7 @@ var welfareStyleFunction = function(feature, resolution) {
 };
 
 /**
- * 認可外保育所向けスタイル
+ * 地域の居場所向けスタイル
  * @param  {[type]} feature    [description]
  * @param  {[type]} resolution [description]
  * @return {[type]}            [description]
@@ -80,7 +115,7 @@ var ibashoStyleFunction = function(feature, resolution) {
 };
 
 /**
- * 幼稚園向けスタイル
+ * 歯科医院向けスタイル
  * @param  {[type]} feature    [description]
  * @param  {[type]} resolution [description]
  * @return {[type]}            [description]
@@ -157,6 +192,22 @@ var drugstoreStyleFunction = function(feature, resolution) {
     var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
     var style = [];
     if (facilityTypeName === "薬局") {
+        featureStyle = featureStyleList[facilityTypeName];
+        style = nurseryStyleFunction(feature, resolution, featureStyle);
+    }
+    return style;
+};
+
+/**
+ * 地域包括支援センター向けスタイル
+ * @param  {[type]} feature    [description]
+ * @param  {[type]} resolution [description]
+ * @return {[type]}            [description]
+ */
+var houkatsuStyleFunction = function(feature, resolution) {
+    var facilityTypeName = feature.get('種別') ? feature.get('種別') : feature.get('Type');
+    var style = [];
+    if (facilityTypeName === "地域包括支援センター") {
         featureStyle = featureStyleList[facilityTypeName];
         style = nurseryStyleFunction(feature, resolution, featureStyle);
     }
