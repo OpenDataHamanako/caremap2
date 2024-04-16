@@ -16,10 +16,10 @@ var mapServerList = {
         label: "OSM",
         source_type: "osm",
         source: new ol.source.OSM({
-            url: "http://{a-c}.tile.osm.org/{z}/{x}/{y}.png",
+            url: "https://{a-c}.tile.osm.org/{z}/{x}/{y}.png",
             attributions: [
                 ol.source.OSM.DATA_ATTRIBUTION,
-                new ol.Attribution({ html: "'&copy; <a href='http://osm.org/copyright'>OpenStreetMap</a> contributors" })
+                new ol.Attribution({ html: "'&copy; <a href='https://osm.org/copyright'>OpenStreetMap</a> contributors" })
             ]
         })
     }
