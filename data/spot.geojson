@@ -1045,7 +1045,7 @@
     "HID":1054,
     "Type":"福祉施設",
     "SubType":"地域密着型通所介護",
-    "Name":"高齢者自立支援センターねこの手",
+    "Name":"高齢者自立支援センター　ねこのて",
     "Organization":"",
     "Etc":"",
     "TEL":"053-522-7773",
@@ -1897,7 +1897,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.5340088,34.7173074 ]
+       "coordinates":  [ 137.534006,34.717314 ]
     },
     "properties": {
     "HID":1103,
@@ -2469,7 +2469,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.546073,34.710722 ]
+       "coordinates":  [ 137.554804,34.717955 ]
     },
     "properties": {
     "HID":1132,
@@ -2480,7 +2480,7 @@
     "Etc":"",
     "TEL":"053-594-5511",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津1163-2",
+    "Add2":"鷲津2837",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -2607,7 +2607,7 @@
     "HID":1116,
     "Type":"一般介護予防",
     "SubType":"いきいきサロン",
-    "Name":"鷲津防災 センター",
+    "Name":"鷲津防災センター",
     "Organization":"鷲津地区福祉会",
     "Etc":"鷲津地区福祉会",
     "TEL":"",
@@ -3487,14 +3487,14 @@
     "HID":1166,
     "Type":"地域包括支援センター",
     "SubType":"",
-    "Name":"地域包括支援センター　湖西白萩",
+    "Name":"地域包括支援センター湖西白萩",
     "Organization":"",
     "Etc":"",
     "TEL":"053-573-2050",
     "Add1":"静岡県湖西市",
     "Add2":"太田450-1",
     "url":"",
-    "Memo":"",
+    "Memo":"（家族介護支援強化型）",
     "business_hours":"",
     "regular_holiday":""
     }
@@ -3509,10 +3509,10 @@
     "HID":1167,
     "Type":"地域包括支援センター",
     "SubType":"",
-    "Name":"地域包括支援センター　光湖苑",
+    "Name":"地域包括支援センター光湖苑",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-577-5454",
+    "TEL":"053-577-5455",
     "Add1":"静岡県湖西市",
     "Add2":"新所岡崎梅田入会地17-20",
     "url":"",
@@ -3531,7 +3531,7 @@
     "HID":1168,
     "Type":"地域包括支援センター",
     "SubType":"",
-    "Name":"地域包括支援センター　恵翔苑",
+    "Name":"地域包括支援センター恵翔苑",
     "Organization":"",
     "Etc":"",
     "TEL":"053-595-1114",
@@ -3553,7 +3553,7 @@
     "HID":1169,
     "Type":"地域包括支援センター",
     "SubType":"",
-    "Name":"地域包括支援センター　燦光",
+    "Name":"地域包括支援センター燦光",
     "Organization":"",
     "Etc":"",
     "TEL":"053-594-7474",
@@ -3943,7 +3943,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.536078,34.735062 ]
+       "coordinates":  [ 137.523457,34.730706 ]
     },
     "properties": {
     "HID":1189,
@@ -3954,7 +3954,7 @@
     "Etc":"",
     "TEL":"053-594-5511",
     "Add1":"静岡県湖西市",
-    "Add2":"新所2787",
+    "Add2":"新所3796-1",
     "url":"",
     "Memo":"あさひ会館",
     "business_hours":"",
@@ -4207,7 +4207,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.536536,34.740871 ]
+       "coordinates":  [ 137.576253,34.686138 ]
     },
     "properties": {
     "HID":1202,
@@ -4218,7 +4218,7 @@
     "Etc":"",
     "TEL":"053-573-2630",
     "Add1":"静岡県湖西市",
-    "Add2":"新所838番地",
+    "Add2":"新居町新居1800-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400185-00&PrefCd=22&VersionCd=001",
     "Memo":"",
     "business_hours":"8時30分～17時30分",
@@ -4449,28 +4449,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.540189,34.735072 ]
-    },
-    "properties": {
-    "HID":1215,
-    "Type":"一般介護予防",
-    "SubType":"居場所",
-    "Name":"おしゃべりマダン",
-    "Organization":"",
-    "Etc":"",
-    "TEL":"053-594-5511",
-    "Add1":"静岡県湖西市",
-    "Add2":"",
-    "url":"",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.506223,34.725966 ]
     },
     "properties": {
@@ -4585,8 +4563,8 @@
     },
     "properties": {
     "HID":1221,
-    "Type":"認知症研修受講医院",
-    "SubType":"認知症サポート医、認知症対応力向上研修受講医",
+    "Type":"認知症関連",
+    "SubType":"認知症対応力向上研修受講医",
     "Name":"牛田クリニック",
     "Organization":"",
     "Etc":"",
@@ -4607,8 +4585,8 @@
     },
     "properties": {
     "HID":1222,
-    "Type":"認知症研修受講医院",
-    "SubType":"認知症サポート医、認知症対応力向上研修受講医",
+    "Type":"認知症関連",
+    "SubType":"認知症対応力向上研修受講医",
     "Name":"クリニック井田",
     "Organization":"",
     "Etc":"",
@@ -4629,8 +4607,8 @@
     },
     "properties": {
     "HID":1223,
-    "Type":"認知症研修受講医院",
-    "SubType":"認知症サポート医、認知症対応力向上研修受講医",
+    "Type":"認知症関連",
+    "SubType":"認知症対応力向上研修受講医",
     "Name":"疋田クリニック",
     "Organization":"",
     "Etc":"",
@@ -4651,8 +4629,8 @@
     },
     "properties": {
     "HID":1224,
-    "Type":"認知症研修受講医院",
-    "SubType":"認知症サポート医、認知症対応力向上研修受講医",
+    "Type":"認知症関連",
+    "SubType":"認知症対応力向上研修受講医",
     "Name":"あらい青葉クリニック",
     "Organization":"",
     "Etc":"",
@@ -4673,7 +4651,7 @@
     },
     "properties": {
     "HID":1225,
-    "Type":"認知症研修受講医院",
+    "Type":"認知症関連",
     "SubType":"認知症サポート医",
     "Name":"いしはま医院",
     "Organization":"",
@@ -4695,7 +4673,7 @@
     },
     "properties": {
     "HID":1226,
-    "Type":"認知症研修受講医院",
+    "Type":"認知症関連",
     "SubType":"認知症対応力向上研修受講医",
     "Name":"長尾クリニック",
     "Organization":"",
@@ -4717,7 +4695,7 @@
     },
     "properties": {
     "HID":1227,
-    "Type":"認知症研修受講医院",
+    "Type":"認知症関連",
     "SubType":"認知症対応力向上研修受講医",
     "Name":"みなとクリニック",
     "Organization":"",
@@ -4801,7 +4779,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.546073,34.710722 ]
+       "coordinates":  [ 137.554804,34.717955 ]
     },
     "properties": {
     "HID":1231,
@@ -4812,7 +4790,7 @@
     "Etc":"",
     "TEL":"",
     "Add1":"静岡県湖西市",
-    "Add2":"鷲津1163-2",
+    "Add2":"鷲津2837",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -5114,8 +5092,8 @@
     "properties": {
     "HID":1245,
     "Type":"一般介護予防",
-    "SubType":"健康体操",
-    "Name":"梅田コミュニティーセンター（梅田）",
+    "SubType":"いきいきサロン",
+    "Name":"梅田コミュニティセンター（梅田）",
     "Organization":"",
     "Etc":"",
     "TEL":"",
@@ -5241,7 +5219,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.551159,34.692039 ]
+       "coordinates":  [ 137.563498,34.691423 ]
     },
     "properties": {
     "HID":1251,
@@ -5335,7 +5313,7 @@
     "HID":1255,
     "Type":"一般介護予防",
     "SubType":"健康体操",
-    "Name":"神田町公民館（神田町）",
+    "Name":"上田町公民館（上田町）",
     "Organization":"",
     "Etc":"",
     "TEL":"",
@@ -5373,7 +5351,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.559784,34.693942 ]
+       "coordinates":  [ 137.570528,34.688509 ]
     },
     "properties": {
     "HID":1257,
@@ -5384,7 +5362,7 @@
     "Etc":"",
     "TEL":"",
     "Add1":"静岡県湖西市",
-    "Add2":"新居1181",
+    "Add2":"新居118-1",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -5417,7 +5395,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.564214,34.686202 ]
+       "coordinates":  [ 137.571048,34.682382 ]
     },
     "properties": {
     "HID":1259,
@@ -5428,7 +5406,7 @@
     "Etc":"",
     "TEL":"",
     "Add1":"静岡県湖西市",
-    "Add2":"新居30339",
+    "Add2":"新居3033-9",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -5538,7 +5516,7 @@
     "Etc":"",
     "TEL":"",
     "Add1":"静岡県湖西市",
-    "Add2":"新居町浜名",
+    "Add2":"新居町浜名654-2",
     "url":"",
     "Memo":"",
     "business_hours":"",
@@ -5602,7 +5580,7 @@
     "Name":"健康福祉センターおぼと",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-576-4900",
+    "TEL":"053-576-4916",
     "Add1":"静岡県湖西市",
     "Add2":"古見1044番地",
     "url":"",
@@ -5624,7 +5602,7 @@
     "Name":"老人福祉センター",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5554",
+    "TEL":"053-576-4916",
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名643-1",
     "url":"",
@@ -5646,7 +5624,7 @@
     "Name":"西部地域センター",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-577-2867",
+    "TEL":"053-576-4916",
     "Add1":"静岡県湖西市",
     "Add2":"駅南2丁目4-1",
     "url":"",
@@ -5668,7 +5646,7 @@
     "Name":"北部多目的センター",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-578-0760",
+    "TEL":"053-576-4916",
     "Add1":"静岡県湖西市",
     "Add2":"太田458-1",
     "url":"",
@@ -5690,7 +5668,7 @@
     "Name":"南部構造改善センター",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-579-2516",
+    "TEL":"053-576-4916",
     "Add1":"静岡県湖西市",
     "Add2":"白須賀5128",
     "url":"",
@@ -5712,7 +5690,7 @@
     "Name":"老人福祉センター",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5554",
+    "TEL":"053-576-4916",
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名643-1",
     "url":"",
@@ -6042,7 +6020,7 @@
     "Name":"疋田クリニック",
     "Organization":"",
     "Etc":"",
-    "TEL":"",
+    "TEL":"053-594-8222",
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1323-5",
     "url":"",
@@ -6108,7 +6086,7 @@
     "Name":"疋田クリニック",
     "Organization":"",
     "Etc":"",
-    "TEL":"",
+    "TEL":"053-594-8222",
     "Add1":"静岡県湖西市",
     "Add2":"新居町新居1323-5",
     "url":"",
@@ -6572,7 +6550,7 @@
     "Etc":"",
     "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
-    "Add2":"",
+    "Add2":"新居町新居",
     "url":"",
     "Memo":"",
     "business_hours":"毎月第1・3火曜日",
@@ -6671,7 +6649,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.536536,34.740871 ]
+       "coordinates":  [ 137.576253,34.686138 ]
     },
     "properties": {
     "HID":1316,
@@ -6682,7 +6660,7 @@
     "Etc":"",
     "TEL":"053-573-2630",
     "Add1":"静岡県湖西市",
-    "Add2":"新所838番地",
+    "Add2":"新居町新居1800-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400185-00&PrefCd=22&VersionCd=001",
     "Memo":"",
     "business_hours":"8時30分～17時30分",
@@ -6693,7 +6671,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.536536,34.740871 ]
+       "coordinates":  [ 137.576253,34.686138 ]
     },
     "properties": {
     "HID":1317,
@@ -6704,7 +6682,7 @@
     "Etc":"",
     "TEL":"053-573-2630",
     "Add1":"静岡県湖西市",
-    "Add2":"新所838番地",
+    "Add2":"新居町新居1800-1",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_001_kani=true&JigyosyoCd=2278400185-00&PrefCd=22&VersionCd=001",
     "Memo":"",
     "business_hours":"8時30分～17時30分",
@@ -7095,7 +7073,7 @@
     "HID":1335,
     "Type":"総合事業",
     "SubType":"通所型サービス（独自）、地域密着型通所介護",
-    "Name":"高齢者自立支援センターねこの手",
+    "Name":"高齢者自立支援センター　ねこのて",
     "Organization":"",
     "Etc":"",
     "TEL":"053-522-7773",
@@ -7397,7 +7375,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.536972,34.766694 ]
+       "coordinates":  [ 137.532983,34.7663741 ]
     },
     "properties": {
     "HID":1349,
@@ -7475,6 +7453,28 @@
     "TEL":"",
     "Add1":"静岡県湖西市",
     "Add2":"岡崎1706",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.518778,34.679816 ]
+    },
+    "properties": {
+    "HID":1353,
+    "Type":"一般介護予防",
+    "SubType":"いきいきサロン",
+    "Name":"宮本集落センター",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"",
+    "Add1":"静岡県湖西市",
+    "Add2":"白須賀499",
     "url":"",
     "Memo":"",
     "business_hours":"",
