@@ -26,12 +26,12 @@ FacilityFilter.prototype.getFilteredFeaturesGeoJson = function(conditions, nurse
     // ----------------------------------------------------------------------
     // 介護施設向けフィルター
     // ----------------------------------------------------------------------
-    if (conditions['subtype']) {
+    if (conditions['subtype1']) {
         filterfunc = function(item, idx) {
             f = function(item, idx) {
-                var subtype = conditions['subtype'];
+                var subtype1 = conditions['subtype1'];
                 var type = item.properties['SubType'];
-                if (subtype == type) {
+                if (subtype1 == type) {
                     return true;
                 }
             };

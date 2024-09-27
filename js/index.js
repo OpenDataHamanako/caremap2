@@ -312,12 +312,12 @@ $('#mainPage').on('pageshow', function() {
     //cognition	認知症関連
     
     // 介護施設	
-    $('#filterApply').click(function(evt) {
+    $('#filterApply1').click(function(evt) {
         // 条件作成処理
         conditions = [];
         welfare = ibasho = dental = salon = hospital = dementia = drugstore = houkatsu = society = overall = careprev = cognition = false;
-        if ($('#subtype option:selected').val() !== "") {
-            conditions['subtype'] = $('#subtype option:selected').val();
+        if ($('#subtype1 option:selected').val() !== "") {
+            conditions['subtype1'] = $('#subtype1 option:selected').val();
             welfare = true;
         }
         // フィルター適用時
@@ -694,32 +694,32 @@ $('#mainPage').on('pageshow', function() {
      * @return {[type]}               [description]
      */
     function updateLayerStatus(checkObj) {
-        //console.log(checkObj);
+        console.log(checkObj);
         papamamap.switchLayer($('#cbDental').prop('id'), checkObj.dental);
         papamamap.switchLayer($('#cbHospital').prop('id'), checkObj.hospital);
         papamamap.switchLayer($('#cbDrugStore').prop('id'), checkObj.drugstore);
         papamamap.switchLayer($('#cbHoukatsu').prop('id'), checkObj.houkatsu);
-        papamamap.switchLayer($('#cbWelfare').prop('id'), checkObj.welfare);
-        papamamap.switchLayer($('#cbIbasho').prop('id'), checkObj.ibasho);
-        papamamap.switchLayer($('#cbDementia').prop('id'), checkObj.dementia);
-        papamamap.switchLayer($('#cbSalon').prop('id'), checkObj.salon);
-        papamamap.switchLayer($('#cbSociety').prop('id'), checkObj.society);
         papamamap.switchLayer($('#cbOverall').prop('id'), checkObj.overall);
         papamamap.switchLayer($('#cbCareprev').prop('id'), checkObj.careprev);
         papamamap.switchLayer($('#cbCognition').prop('id'), checkObj.cognition);
+        //papamamap.switchLayer($('#cbWelfare').prop('id'), checkObj.welfare);
+        //papamamap.switchLayer($('#cbIbasho').prop('id'), checkObj.ibasho);
+        //papamamap.switchLayer($('#cbDementia').prop('id'), checkObj.dementia);
+        //papamamap.switchLayer($('#cbSalon').prop('id'), checkObj.salon);
+        //papamamap.switchLayer($('#cbSociety').prop('id'), checkObj.society);
         
         $('#cbDental').prop('checked', checkObj.dental).checkboxradio('refresh');
         $('#cbHospital').prop('checked', checkObj.hospital).checkboxradio('refresh');
         $('#cbDrugStore').prop('checked', checkObj.drugstore).checkboxradio('refresh');
         $('#cbHoukatsu').prop('checked', checkObj.houkatsu).checkboxradio('refresh');
-        $('#cbWelfare').prop('checked', checkObj.welfare).checkboxradio('refresh');
-        $('#cbIbasho').prop('checked', checkObj.ibasho).checkboxradio('refresh');
-        $('#cbDementia').prop('checked', checkObj.dementia).checkboxradio('refresh');
-        $('#cbSalon').prop('checked', checkObj.salon).checkboxradio('refresh');
-        $('#cbSociety').prop('checked', checkObj.society).checkboxradio('refresh');
         $('#cbOverall').prop('checked', checkObj.overall).checkboxradio('refresh');
         $('#cbCareprev').prop('checked', checkObj.careprev).checkboxradio('refresh');
         $('#cbCognition').prop('checked', checkObj.cognition).checkboxradio('refresh');
+        //$('#cbWelfare').prop('checked', checkObj.welfare).checkboxradio('refresh');
+        //$('#cbIbasho').prop('checked', checkObj.ibasho).checkboxradio('refresh');
+        //$('#cbDementia').prop('checked', checkObj.dementia).checkboxradio('refresh');
+        //$('#cbSalon').prop('checked', checkObj.salon).checkboxradio('refresh');
+        //$('#cbSociety').prop('checked', checkObj.society).checkboxradio('refresh');
     }
 
     /**
