@@ -274,7 +274,7 @@
     "properties": {
     "HID":1015,
     "Type":"福祉施設",
-    "SubType":"通所介護",
+    "SubType":"地域密着型通所介護",
     "Name":"湖西市社協介護センターあらい",
     "Organization":"",
     "Etc":"",
@@ -649,7 +649,7 @@
     "HID":1032,
     "Type":"福祉施設",
     "SubType":"認知症対応型共同生活介護",
-    "Name":"おかさきグループホーム",
+    "Name":"おかさきグループホームサテライト",
     "Organization":"",
     "Etc":"",
     "TEL":"053-573-3800",
@@ -786,7 +786,7 @@
     "Etc":"",
     "TEL":"053-575-3294",
     "Add1":"静岡県湖西市",
-    "Add2":"吉美3257　コサイグリーンビル2階G",
+    "Add2":"新居町浜名575",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
     "Memo":"",
     "business_hours":"8時30分～17時15分",
@@ -1457,28 +1457,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.56165,34.69396 ]
-    },
-    "properties": {
-    "HID":1081,
-    "Type":"医療機関",
-    "SubType":"内科、小児科",
-    "Name":"新村医院",
-    "Organization":"",
-    "Etc":"",
-    "TEL":"053-594-0080",
-    "Add1":"静岡県湖西市",
-    "Add2":"新居町新居3354-27",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1101.php?sisetuid=12400&kinouid=fk9102",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":"土曜日午後・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.5226,34.73045 ]
     },
     "properties": {
@@ -2117,50 +2095,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.490413,34.719092 ]
-    },
-    "properties": {
-    "HID":1116,
-    "Type":"薬局",
-    "SubType":"",
-    "Name":"松澤薬局湖西店",
-    "Organization":"",
-    "Etc":"",
-    "TEL":"053-577-6600",
-    "Add1":"静岡県湖西市",
-    "Add2":"駅南一丁目5番10号",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20986&kinouid=fk9104",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":"木曜日午後・土曜日午後２時以降・日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 137.486191,34.71962 ]
-    },
-    "properties": {
-    "HID":1117,
-    "Type":"薬局",
-    "SubType":"",
-    "Name":"有限会社大阪薬局本店",
-    "Organization":"",
-    "Etc":"",
-    "TEL":"053-577-0811",
-    "Add1":"静岡県湖西市",
-    "Add2":"駅南2-12-12",
-    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1104.php?sisetuid=20987&kinouid=fk9104",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":"日曜日・祝日"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.54688,34.71526 ]
     },
     "properties": {
@@ -2456,7 +2390,7 @@
     "Name":"おしゃべりサロン",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"駅南2-3-19",
     "url":"",
@@ -2478,7 +2412,7 @@
     "Name":"おしゃべり処表鷲津（表鷲津コミュニティ防災センター）",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"鷲津2837",
     "url":"",
@@ -2500,7 +2434,7 @@
     "Name":"すいすいクラブ",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"南台2丁目17-20",
     "url":"",
@@ -2522,7 +2456,7 @@
     "Name":"ひだまりさろん",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"入出751",
     "url":"",
@@ -2544,7 +2478,7 @@
     "Name":"古見寄ってこ会",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"古見895-6",
     "url":"",
@@ -2566,7 +2500,7 @@
     "Name":"陽だまりサークル",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"新所6079-7",
     "url":"",
@@ -3393,28 +3327,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 137.548297,34.711126 ]
-    },
-    "properties": {
-    "HID":1160,
-    "Type":"福祉施設",
-    "SubType":"訪問看護",
-    "Name":"訪問看護ステーション　湖西",
-    "Organization":"",
-    "Etc":"",
-    "TEL":"053-488-7770",
-    "Add1":"静岡県湖西市",
-    "Add2":"鷲津1191-1-303",
-    "url":"",
-    "Memo":"",
-    "business_hours":"",
-    "regular_holiday":""
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 137.556179,34.70681 ]
     },
     "properties": {
@@ -3619,7 +3531,7 @@
     "HID":1172,
     "Type":"福祉施設",
     "SubType":"小規模多機能型居宅介護",
-    "Name":"おかさき小規模多機能ホーム",
+    "Name":"おかさき小規模多機能ホームサテライト",
     "Organization":"",
     "Etc":"",
     "TEL":"053-573-3800",
@@ -3886,7 +3798,7 @@
     "Name":"ふれあい広場",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名1327",
     "url":"",
@@ -3908,7 +3820,7 @@
     "Name":"上ノ原すいようカフェ",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"岡崎710-1",
     "url":"",
@@ -3930,7 +3842,7 @@
     "Name":"ほっとカフェ・ちどりの里",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"岡崎1706",
     "url":"",
@@ -3952,7 +3864,7 @@
     "Name":"居場所・あさひカフェ",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"新所3796-1",
     "url":"",
@@ -3974,7 +3886,7 @@
     "Name":"地域の茶の間　日和",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"",
     "url":"",
@@ -3996,7 +3908,7 @@
     "Name":"しあわせカフェ日和",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名936-2",
     "url":"",
@@ -4196,7 +4108,7 @@
     "Etc":"",
     "TEL":"053-575-3294",
     "Add1":"静岡県湖西市",
-    "Add2":"吉美3257　コサイグリーンビル2階G",
+    "Add2":"新居町浜名575",
     "url":"http://www.kaigokensaku.mhlw.go.jp/22/index.php?action_kouhyou_detail_2017_023_kani=true&JigyosyoCd=2278400029-00&PrefCd=22&VersionCd=023",
     "Memo":"",
     "business_hours":"8時30分～17時15分",
@@ -4414,7 +4326,7 @@
     "Name":"ゆるり体操",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"新居町内山1925-16",
     "url":"",
@@ -4436,7 +4348,7 @@
     "Name":"しあわせカフェ　日和F",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"新居町浜名936-2",
     "url":"",
@@ -4744,7 +4656,7 @@
     "Name":"ぶらっとカフェ",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"新所原3丁目3番16号 ふれあい会館",
     "url":"",
@@ -4766,7 +4678,7 @@
     "Name":"いちかわさんち",
     "Organization":"",
     "Etc":"",
-    "TEL":"053-594-5511",
+    "TEL":"053-575-0294",
     "Add1":"静岡県湖西市",
     "Add2":"南台3丁目6番18号",
     "url":"",
@@ -7481,6 +7393,53 @@
     "regular_holiday":""
     }
   },
+
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.493448,34.723728 ]
+    },
+    "properties": {
+    "HID":1354,
+    "Type":"福祉施設",
+    "SubType":"訪問リハビリテーション",
+    "Name":"浜名病院",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"053-577-2333",
+    "Add1":"静岡県湖西市",
+    "Add2":"新所岡崎梅田入会地15-70",
+    "url":"http://www.qq.pref.shizuoka.jp/qq22/qqport/kenmintop/detail/fk1100.php?sisetuid=10165&kinouid=fk9102",
+    "Memo":"みなし指定(医療保健）",
+    "business_hours":"",
+    "regular_holiday":"木曜日午後・土曜日午後・日曜日・祝日"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.505689,34.723562 ]
+    },
+    "properties": {
+    "HID":1355,
+    "Type":"歯科医院",
+    "SubType":"歯科",
+    "Name":"うちやま歯科クリニック",
+    "Organization":"",
+    "Etc":"",
+    "TEL":"053-577-5008",
+    "Add1":"静岡県湖西市岡崎2586-38",
+    "Add2":"",
+    "url":"",
+    "Memo":"",
+    "business_hours":"",
+    "regular_holiday":""
+    }
+  },
+
+
 
   {
     "type": "Feature",
